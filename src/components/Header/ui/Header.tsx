@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { Navbar } from "../../Navbar/ui/Navbar";
+import { Input } from "../../Input";
 import Logo from "../../../assets/logo.png";
 import cls from "./Header.module.scss";
-import { Input } from "../../Input";
 
 export const Header = () => {
     return (

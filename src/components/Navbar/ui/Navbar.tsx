@@ -3,6 +3,7 @@ import cls from "./Navbar.module.scss";
 
 export const Navbar = () => {
     return (
+        
         <nav className={cls.navbar}>
             <ul className={cls.navbar_items}>
                 <NavLink
