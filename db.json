@@ -1,0 +1,33 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "React для начинающих",
+        "image": "../src/assets/react-course.png",
+        "description": "Курс по основам React для начинающих.",
+        "rating": 4.8
+      },
+      {
+        "id": 2,
+        "title": "JavaScript с нуля",
+        "image": "../src/assets/js-course.png",
+        "description": "Курс, который познакомит вас с JavaScript и его основами.",
+        "rating": 4.7
+      },
+      {
+        "id": 3,
+        "title": "Продвинутый CSS",
+        "image": "../src/assets/css-course.png",
+        "description": "Научитесь создавать сложные и красивые интерфейсы с CSS.",
+        "rating": 4.9
+      },
+      {
+        "id": 4,
+        "title": "Node.js для серверной разработки",
+        "image": "../src/assets/node-course.png",
+        "description": "Освойте серверную разработку с использованием Node.js.",
+        "rating": 4.8
+      }
+    ]
+  }
+  

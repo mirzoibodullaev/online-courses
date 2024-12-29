@@ -1,0 +1,11 @@
+.title {
+    font-weight: 900;
+    font-size: 30px;
+    color: #2b2b2b;
+    margin-bottom: 25px;
+}
+.courses {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
