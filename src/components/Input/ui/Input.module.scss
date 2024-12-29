@@ -1,0 +1,38 @@
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+
+    &:focus-within {
+        border-color: #01e45c;
+    }
+}
+
+.input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 4px 8px;
+    color: #333;
+
+    &::placeholder {
+        color: #aaa;
+    }
+}
+
+.searchButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+
+    .searchIcon {
+        width: 16px;
+        height: 16px;
+    }
+}

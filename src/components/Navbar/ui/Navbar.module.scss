@@ -1,0 +1,14 @@
+.navbar {
+    &_link {
+        color: #2b2b2b;
+        font-weight: 700;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    &_link:not(:last-child) {
+        margin-right: 100px;
+    }
+}
+.active {
+    color: #01e45c;
+}
