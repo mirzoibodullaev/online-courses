@@ -1,33 +1,94 @@
 {
     "courses": [
-      {
-        "id": 1,
-        "title": "React для начинающих",
-        "image": "../src/assets/react-course.png",
-        "description": "Курс по основам React для начинающих.",
-        "rating": 4.8
-      },
-      {
-        "id": 2,
-        "title": "JavaScript с нуля",
-        "image": "../src/assets/js-course.png",
-        "description": "Курс, который познакомит вас с JavaScript и его основами.",
-        "rating": 4.7
-      },
-      {
-        "id": 3,
-        "title": "Продвинутый CSS",
-        "image": "../src/assets/css-course.png",
-        "description": "Научитесь создавать сложные и красивые интерфейсы с CSS.",
-        "rating": 4.9
-      },
-      {
-        "id": 4,
-        "title": "Node.js для серверной разработки",
-        "image": "../src/assets/node-course.png",
-        "description": "Освойте серверную разработку с использованием Node.js.",
-        "rating": 4.8
-      }
+        {
+            "id": 1,
+            "title": "React для начинающих",
+            "image": "../src/assets/react-course.png",
+            "description": "Курс по основам React для начинающих.",
+            "rating": 4.8
+        },
+        {
+            "id": 2,
+            "title": "JavaScript с нуля",
+            "image": "../src/assets/js-course.png",
+            "description": "Курс, который познакомит вас с JavaScript и его основами.",
+            "rating": 4.7
+        },
+        {
+            "id": 3,
+            "title": "Продвинутый CSS",
+            "image": "../src/assets/css-course.png",
+            "description": "Научитесь создавать сложные и красивые интерфейсы с CSS.",
+            "rating": 4.9
+        },
+        {
+            "id": 4,
+            "title": "Node.js для серверной разработки",
+            "image": "../src/assets/node-course.png",
+            "description": "Освойте серверную разработку с использованием Node.js.",
+            "rating": 4.8
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "name": "Анна Иванова",
+            "image": "../src/assets/anna.jpg",
+            "review": "Отличный курс! Много полезной информации, объясняется всё понятно."
+        },
+        {
+            "id": 2,
+            "name": "Дмитрий Петров",
+            "image": "../src/assets/dmitriy.png",
+            "review": "Очень понравился подход преподавателей. Всё структурировано и логично."
+        },
+        {
+            "id": 3,
+            "name": "Мария Смирнова",
+            "image": "../src/assets/maria.jpg",
+            "review": "Курс превзошел мои ожидания! Понравились практические задания."
+        },
+        {
+            "id": 4,
+            "name": "Иван Сидоров",
+            "image": "../src/assets/ivan.jpg",
+            "review": "Уроки интересные, но хотелось бы больше примеров из реальной жизни."
+        },
+        {
+            "id": 5,
+            "name": "Ольга Васильева",
+            "image": "../src/assets/olga.jpg",
+            "review": "Понравился курс, особенно часть про CSS. Теперь мои проекты выглядят лучше."
+        },
+        {
+            "id": 6,
+            "name": "Екатерина Николаева",
+            "image": "../src/assets/katya.jpg",
+            "review": "Замечательные преподаватели и отличный материал. Спасибо за курс!"
+        },
+        {
+            "id": 7,
+            "name": "Александр Кузнецов",
+            "image": "../src/assets/alexandr.jpg",
+            "review": "Курс хороший, но слишком быстрый темп. Для новичков может быть сложновато."
+        },
+        {
+            "id": 8,
+            "name": "Татьяна Белова",
+            "image": "../src/assets/tatiana.jpg",
+            "review": "Обожаю этот курс! Узнала много нового и интересного. Всем рекомендую!"
+        },
+        {
+            "id": 9,
+            "name": "Сергей Морозов",
+            "image": "../src/assets/sergey.jpeg",
+            "review": "Хорошо структурированная информация, но хотелось бы больше практики."
+        },
+        {
+            "id": 10,
+            "name": "Наталья Лебедева",
+            "image": "../src/assets/natalya.jpg",
+            "review": "Курс супер! Материал подан доступно, всё сразу понятно. Спасибо!"
+        }
     ]
-  }
-  
+}

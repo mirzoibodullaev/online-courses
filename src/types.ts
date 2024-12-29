@@ -5,3 +5,9 @@ export interface Course {
     description: string;
     rating: number;
 }
+
+export interface Review {
+    id: number;
+    review: string;
+    image: string;
+}
