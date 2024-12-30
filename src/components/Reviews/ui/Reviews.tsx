@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Review } from "../../../types";
 import { Card } from "../../Card";
-import cls from "./Reviews.module.scss";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import cls from "./Reviews.module.scss";
 
 export const Reviews = () => {
     const [reviews, setReviews] = useState<Review[]>([]);
@@ -37,11 +37,11 @@ export const Reviews = () => {
                 breakpoints={{
                     640: { slidesPerView: 1 },
                     768: { slidesPerView: 2 },
-                    1024: { slidesPerView: 3 },
+                    1024: { slidesPerView: 4 },
                 }}
             >
                 {reviews.map((item) => (
-                    <SwiperSlide key={item.id}>
+                    <SwiperSlide className={cls.swiper_slide} key={item.id}>
                         <Card cardType="reviewCard" {...item} />
                     </SwiperSlide>
                 ))}
