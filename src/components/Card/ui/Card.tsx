@@ -40,8 +40,8 @@ export const Card = ({
 
                     {showDetails ? (
                         <>
-                            <span className={cls.card_author}>{author}</span>
-                            <span className={cls.card_price}>{price}₽</span>
+                            <span className={cls.card_author}>Автор: {author}</span>
+                            <span className={cls.card_price}>Цена: {price} ₽</span>
                         </>
                     ) : null}
 

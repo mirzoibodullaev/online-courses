@@ -11,7 +11,7 @@ export const Header = () => {
                 <img className={cls.header_logo} src={Logo} alt="Logo" />
             </Link>
             <Navbar />
-            <Input />
+            <Input placeholder="Искать курсы"/>
         </header>
     );
 };

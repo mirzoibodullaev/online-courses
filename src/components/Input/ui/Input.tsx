@@ -10,7 +10,7 @@ interface InputProps  {
 }
 
 export const Input = ({
-    placeholder = "Искать курсы",
+    placeholder,
     value,
     onChange,
     onSearch,
