@@ -1,35 +1,35 @@
-import { useEffect, useState } from "react";
+import { useFetch } from "../../../hooks/useFetch";
 import { Course } from "../../../types";
 import { Card } from "../../Card";
 import cls from "./PopularCourses.module.scss";
 
 export const PopularCourses = () => {
-    const [courses, setCourses] = useState<Course[]>([]);
-
-    useEffect(() => {
-        const fetchCourses = async () => {
-            try {
-                const response = await fetch("http://localhost:5000/courses");
-                const data = await response.json();
-                setCourses(data);
-            } catch (error) {
-                console.error("Ошибка при загрузке курсов:", error);
-            }
-        };
-
-        fetchCourses();
-    }, []);
+    const {
+        data: courses,
+        error,
+        isLoading,
+    } = useFetch<Course[]>("http://localhost:5000/courses");
 
     return (
         <section className={cls.popular}>
             <h2 className={cls.title}>Популярные Курсы:</h2>
-            <div className={cls.courses}>
-                {courses
-                    .filter((item) => item.isPopular)
-                    .map((item) => (
-                        <Card cardType="courseCard" key={item.id} {...item} />
-                    ))}
-            </div>
+            {error ? (
+                <p className={cls.error}>Ошибка при загрузке курсов: {error}</p>
+            ) : isLoading ? (
+                <p className={cls.loading}>Загрузка...</p>
+            ) : (
+                <div className={cls.courses}>
+                    {courses
+                        ?.filter((item) => item.isPopular)
+                        .map((item) => (
+                            <Card
+                                cardType="courseCard"
+                                key={item.id}
+                                {...item}
+                            />
+                        ))}
+                </div>
+            )}
         </section>
     );
 };

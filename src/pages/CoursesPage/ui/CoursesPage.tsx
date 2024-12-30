@@ -1,24 +1,23 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Card } from "../../../components/Card";
 import { Course } from "../../../types";
 import { Filters } from "../../../components/Filters";
-import cls from "./CoursePage.module.scss";
+import { useFetch } from "../../../hooks/useFetch";
+import cls from "./CoursesPage.module.scss";
 
-export const CoursePage = () => {
-    const [courses, setCourses] = useState<Course[]>([]);
+export const CoursesPage = () => {
+    const {
+        data: courses,
+        error,
+        isLoading,
+    } = useFetch<Course[]>("http://localhost:5000/courses");
+
     const [categoryFilter, setCategoryFilter] = useState("");
     const [levelFilter, setLevelFilter] = useState("");
     const [typeFilter, setTypeFilter] = useState("");
     const [searchQuery, setSearchQuery] = useState("");
 
-    useEffect(() => {
-        fetch("http://localhost:5000/courses")
-            .then((response) => response.json())
-            .then((data) => setCourses(data));
-    }, []);
-    console.log(courses);
-
-    const filteredCourses = courses.filter((course) => {
+    const filteredCourses = (courses || []).filter((course) => {
         return (
             (categoryFilter === "" || course.category === categoryFilter) &&
             (levelFilter === "" || course.level === levelFilter) &&
@@ -43,16 +42,24 @@ export const CoursePage = () => {
                 setSearchQuery={setSearchQuery}
             />
 
-            <div className={cls.courses}>
-                {filteredCourses.map((course) => (
-                    <Card
-                        showDetails
-                        cardType="courseCard"
-                        key={course.id}
-                        {...course}
-                    />
-                ))}
-            </div>
+            {error ? (
+                <div className={cls.error}>
+                    <p>{error}</p>
+                </div>
+            ) : isLoading ? (
+                <p>Загрузка...</p>
+            ) : (
+                <div className={cls.courses}>
+                    {filteredCourses.map((course) => (
+                        <Card
+                            showDetails
+                            cardType="courseCard"
+                            key={course.id}
+                            {...course}
+                        />
+                    ))}
+                </div>
+            )}
         </section>
     );
 };
