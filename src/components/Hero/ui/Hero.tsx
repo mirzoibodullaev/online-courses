@@ -4,7 +4,7 @@ import { Button } from "../../Button";
 
 export const Hero = () => {
     return (
-        <div className={cls.hero}>
+        <section className={cls.hero}>
             <div className={cls.hero_content}>
                 <h1 className={cls.hero_title}>Агрегатор онлайн-курсов</h1>
                 <p className={cls.hero_paragraph}>
@@ -16,6 +16,6 @@ export const Hero = () => {
             </div>
 
             <img className={cls.hero_img} src={HeroBanner} alt="" />
-        </div>
+        </section>
     );
 };

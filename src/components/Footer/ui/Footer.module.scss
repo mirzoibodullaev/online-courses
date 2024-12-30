@@ -1,0 +1,47 @@
+.footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialLinks {
+    display: flex;
+    gap: 15px;
+
+    a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 14px;
+
+        &:hover {
+            color: #1abc9c;
+        }
+    }
+}
+
+.contactInfo {
+    font-size: 14px;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: #000000;
+        gap: 30px;
+        margin: 0 10px;
+    }
+}
+
+.supportButton {
+    button {
+        background-color: #1abc9c;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #16a085;
+        }
+    }
+}

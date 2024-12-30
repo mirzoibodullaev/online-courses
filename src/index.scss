@@ -5,8 +5,16 @@
     font-family: "Roboto", serif;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
 .container {
-    width: 1230px;
+    max-width: 1230px;
     padding: 0 15px;
     margin: 0 auto;
 }
+
+

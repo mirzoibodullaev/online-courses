@@ -10,6 +10,12 @@ interface CardProps {
     cardType: "reviewCard" | "courseCard";
     name?: string;
     review?: string;
+    isFree?: boolean;
+    category?: string;
+    level?: string;
+    author?: string;
+    price?: number;
+    showDetails?: boolean;
 }
 
 export const Card = ({
@@ -20,6 +26,9 @@ export const Card = ({
     cardType,
     name,
     review,
+    author,
+    price,
+    showDetails,
 }: CardProps) => {
     return (
         <div className={cls.card}>
@@ -28,7 +37,15 @@ export const Card = ({
                     <h3 className={cls.card_title}>{title}</h3>
                     <img className={cls.card_img} src={image} alt={title} />
                     <p className={cls.card_descr}>{description}</p>
-                    <span className={cls.card_rating}>{rating}</span>
+
+                    {showDetails ? (
+                        <>
+                            <span className={cls.card_author}>{author}</span>
+                            <span className={cls.card_price}>{price}₽</span>
+                        </>
+                    ) : null}
+
+                    <span className={cls.card_rating}>{rating} ⭐</span>
                     <Button label="Подробнее" variant="outline" />
                 </>
             ) : (

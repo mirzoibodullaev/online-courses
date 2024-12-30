@@ -16,18 +16,19 @@ export const PopularCourses = () => {
                 console.error("Ошибка при загрузке курсов:", error);
             }
         };
-    
+
         fetchCourses();
     }, []);
-    
 
     return (
         <section className={cls.popular}>
             <h2 className={cls.title}>Популярные Курсы:</h2>
             <div className={cls.courses}>
-                {courses.map((item) => (
-                    <Card cardType="courseCard" key={item.id} {...item} />
-                ))}
+                {courses
+                    .filter((item) => item.isPopular)
+                    .map((item) => (
+                        <Card cardType="courseCard" key={item.id} {...item} />
+                    ))}
             </div>
         </section>
     );

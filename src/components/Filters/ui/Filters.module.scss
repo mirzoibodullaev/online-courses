@@ -1,0 +1,29 @@
+.filters {
+    display: grid;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filterGroup {
+    display: flex;
+    gap: 16px;
+}
+
+.searchInput {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 16px;
+
+    &:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+}

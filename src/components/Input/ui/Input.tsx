@@ -1,8 +1,9 @@
 import cls from "./Input.module.scss";
 import SearchIcon from "../../../assets/icons/search.svg";
 
-interface InputProps {
+interface InputProps  {
     placeholder?: string;
+    type?: "text"
     value?: string;
     onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
     onSearch?: () => void;

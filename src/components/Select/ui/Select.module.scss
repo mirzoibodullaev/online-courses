@@ -1,0 +1,14 @@
+.select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    max-width: 200px;
+
+    &:focus {
+        outline: none;
+        border-color: #01e45c;
+    }
+}
