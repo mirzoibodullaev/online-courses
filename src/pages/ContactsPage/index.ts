@@ -1,1 +1,3 @@
-export { ContactsPage } from "./ui/ContactsPage";
+import { ContactsPageAsync } from "./ui/ContactsPage.async";
+
+export { ContactsPageAsync as ContactsPage };

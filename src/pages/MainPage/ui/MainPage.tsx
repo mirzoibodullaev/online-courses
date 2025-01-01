@@ -3,7 +3,7 @@ import { PopularCourses } from "../../../components/PopularCourses";
 import { Reviews } from "../../../components/Reviews";
 import cls from "./MainPage.module.scss"
 
-export const MainPage = () => {
+const MainPage = () => {
     return (
         <main className={cls.main}>
             <Hero />
@@ -12,3 +12,5 @@ export const MainPage = () => {
         </main>
     );
 };
+
+export default MainPage

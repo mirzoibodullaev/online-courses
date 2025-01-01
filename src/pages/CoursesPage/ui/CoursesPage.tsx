@@ -5,7 +5,7 @@ import { Filters } from "../../../components/Filters";
 import { useFetch } from "../../../hooks/useFetch";
 import cls from "./CoursesPage.module.scss";
 
-export const CoursesPage = () => {
+ const CoursesPage = () => {
     const {
         data: courses,
         error,
@@ -63,3 +63,4 @@ export const CoursesPage = () => {
         </section>
     );
 };
+export default CoursesPage

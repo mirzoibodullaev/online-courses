@@ -1,9 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
+import { Layout } from "./components/Layout/Layout";
 import { CoursesPage } from "./pages/CoursesPage";
 import { LoginPage } from "./pages/LoginPage";
-import { ContactsPage } from "./pages/ContactsPage";
 import { AboutPage } from "./pages/AboutPage";
-import { Layout } from "./components/Layout/Layout";
+import { ContactsPage } from "./pages/ContactsPage";
+import { CourseInfoPage } from "./pages/CourseInfoPage";
 import { MainPage } from "./pages/MainPage";
 
 export const router = createBrowserRouter([
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
             {
                 path: "/about",
                 element: <AboutPage />,
+            },
+            {
+                path: "/course/:id",
+                element: <CourseInfoPage />,
             },
         ],
     },

@@ -1,5 +1,6 @@
-import { Button } from "../../Button";
+import { Link } from "react-router-dom";
 import cls from "./Card.module.scss";
+import { Button } from "../../Button";
 
 interface CardProps {
     id?: number;
@@ -19,6 +20,7 @@ interface CardProps {
 }
 
 export const Card = ({
+    id,
     description,
     image,
     rating,
@@ -40,13 +42,19 @@ export const Card = ({
 
                     {showDetails ? (
                         <>
-                            <span className={cls.card_author}>Автор: {author}</span>
-                            <span className={cls.card_price}>Цена: {price} ₽</span>
+                            <span className={cls.card_author}>
+                                Автор: {author}
+                            </span>
+                            <span className={cls.card_price}>
+                                Цена: {price} ₽
+                            </span>
                         </>
                     ) : null}
 
                     <span className={cls.card_rating}>{rating} ⭐</span>
-                    <Button label="Подробнее" variant="outline" />
+                    <Link to={`/course/${id}`}>
+                        <Button label="Подробнее" variant="outline" />
+                    </Link>
                 </>
             ) : (
                 <>
