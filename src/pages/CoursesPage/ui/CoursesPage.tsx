@@ -5,7 +5,7 @@ import { Filters } from "../../../components/Filters";
 import { useFetch } from "../../../hooks/useFetch";
 import cls from "./CoursesPage.module.scss";
 
- const CoursesPage = () => {
+const CoursesPage = () => {
     const {
         data: courses,
         error,
@@ -51,16 +51,11 @@ import cls from "./CoursesPage.module.scss";
             ) : (
                 <div className={cls.courses}>
                     {filteredCourses.map((course) => (
-                        <Card
-                            showDetails
-                            cardType="courseCard"
-                            key={course.id}
-                            {...course}
-                        />
+                        <Card showDetails key={course.id} {...course} />
                     ))}
                 </div>
             )}
         </section>
     );
 };
-export default CoursesPage
+export default CoursesPage;

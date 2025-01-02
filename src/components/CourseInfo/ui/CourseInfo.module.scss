@@ -1,0 +1,36 @@
+.courseInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.coursePrice {
+    margin-bottom: 15px;
+}
+.courseDetails,
+.instructorDetails {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.courseImg,
+.instructorImg {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+.instructorInfo,
+.instructorExp {
+    margin-bottom: 6px;
+}
+
+.courseTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.courseRating span {
+    margin-right: 6px;
+}
+

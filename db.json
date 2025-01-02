@@ -11,7 +11,11 @@
             "level": "Начальный",
             "category": "Программирование",
             "type": "Бесплатный",
-            "isPopular": true
+            "isPopular": true,
+            "instructorImg": "../src/assets/ivan.jpg",
+            "instructorExperience": "3 года",
+            "instructorContacts": "+123456789",
+            "reviews": 122
         },
         {
             "id": 2,
@@ -24,7 +28,11 @@
             "level": "Начальный",
             "category": "Программирование",
             "type": "Платный",
-            "isPopular": true
+            "isPopular": true,
+            "instructorImg": "../src/assets/maria.jpg",
+            "instructorExperience": "2 года",
+            "instructorContacts": "+123456789",
+            "reviews": 144
         },
         {
             "id": 3,
@@ -37,7 +45,11 @@
             "level": "Продвинутый",
             "category": "Дизайн",
             "type": "Платный",
-            "isPopular": true
+            "isPopular": true,
+            "instructorImg": "../src/assets/olga.jpg",
+            "instructorExperience": "6 лет",
+            "instructorContacts": "+123456789",
+            "reviews": 89
         },
         {
             "id": 4,
@@ -50,7 +62,11 @@
             "level": "Средний",
             "category": "Программирование",
             "type": "Платный",
-            "isPopular": true
+            "isPopular": true,
+            "instructorImg": "../src/assets/dmitriy.png",
+            "instructorExperience": "7 лет",
+            "instructorContacts": "+123456789",
+            "reviews": 232
         },
         {
             "id": 5,
@@ -63,7 +79,11 @@
             "level": "Начальный",
             "category": "Дизайн",
             "type": "Бесплатный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/alexandr.jpg",
+            "instructorExperience": "4 года",
+            "instructorContacts": "+123456789",
+            "reviews": 22
         },
         {
             "id": 6,
@@ -76,7 +96,11 @@
             "level": "Начальный",
             "category": "Программирование",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/katya.jpg",
+            "instructorExperience": "1 год",
+            "instructorContacts": "+123456789",
+            "reviews": 44
         },
         {
             "id": 7,
@@ -89,7 +113,11 @@
             "level": "Продвинутый",
             "category": "Программирование",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/sergey.jpg",
+            "instructorExperience": "5 лет",
+            "instructorContacts": "+123456789",
+            "reviews": 90
         },
         {
             "id": 8,
@@ -102,7 +130,11 @@
             "level": "Начальный",
             "category": "Дизайн",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/tatiana.jpg",
+            "instructorExperience": "3 года",
+            "instructorContacts": "+123456789",
+            "reviews": 34
         },
         {
             "id": 9,
@@ -115,7 +147,11 @@
             "level": "Средний",
             "category": "Программирование",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/sergey.jpg",
+            "instructorExperience": "8 лет",
+            "instructorContacts": "+123456789",
+            "reviews": 204
         },
         {
             "id": 10,
@@ -128,7 +164,11 @@
             "level": "Начальный",
             "category": "Маркетинг",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/ivan.jpg",
+            "instructorExperience": "9 лет",
+            "instructorContacts": "+123456789",
+            "reviews": 410
         },
         {
             "id": 11,
@@ -141,7 +181,11 @@
             "level": "Продвинутый",
             "category": "Программирование",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/ivan.jpg",
+            "instructorExperience": "3 года",
+            "instructorContacts": "+123456789",
+            "reviews": 122
         },
         {
             "id": 12,
@@ -154,7 +198,11 @@
             "level": "Средний",
             "category": "Маркетинг",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/ivan.jpg",
+            "instructorExperience": "3 года",
+            "instructorContacts": "+123456789",
+            "reviews": 122
         },
         {
             "id": 13,
@@ -167,7 +215,11 @@
             "level": "Начальный",
             "category": "Маркетинг",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/ivan.jpg",
+            "instructorExperience": "3 года",
+            "instructorContacts": "+123456789",
+            "reviews": 122
         },
         {
             "id": 14,
@@ -180,7 +232,11 @@
             "level": "Начальный",
             "category": "Маркетинг",
             "type": "Бесплатный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/ivan.jpg",
+            "instructorExperience": "3 года",
+            "instructorContacts": "+123456789",
+            "reviews": 122
         },
         {
             "id": 15,
@@ -193,7 +249,11 @@
             "level": "Средний",
             "category": "Программирование",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/ivan.jpg",
+            "instructorExperience": "3 года",
+            "instructorContacts": "+123456789",
+            "reviews": 122
         },
         {
             "id": 16,
@@ -206,7 +266,11 @@
             "level": "Средний",
             "category": "Программирование",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/ivan.jpg",
+            "instructorExperience": "3 года",
+            "instructorContacts": "+123456789",
+            "reviews": 122
         },
         {
             "id": 17,
@@ -219,7 +283,11 @@
             "level": "Начальный",
             "category": "Программирование",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/ivan.jpg",
+            "instructorExperience": "3 года",
+            "instructorContacts": "+123456789",
+            "reviews": 122
         },
         {
             "id": 18,
@@ -232,7 +300,11 @@
             "level": "Средний",
             "category": "Дизайн",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/ivan.jpg",
+            "instructorExperience": "3 года",
+            "instructorContacts": "+123456789",
+            "reviews": 122
         },
         {
             "id": 19,
@@ -245,7 +317,11 @@
             "level": "Начальный",
             "category": "Программирование",
             "type": "Бесплатный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/ivan.jpg",
+            "instructorExperience": "3 года",
+            "instructorContacts": "+123456789",
+            "reviews": 122
         },
         {
             "id": 20,
@@ -258,7 +334,11 @@
             "level": "Средний",
             "category": "Дизайн",
             "type": "Платный",
-            "isPopular": false
+            "isPopular": false,
+            "instructorImg": "../src/assets/ivan.jpg",
+            "instructorExperience": "3 года",
+            "instructorContacts": "+123456789",
+            "reviews": 122
         }
     ],
     "reviews": [

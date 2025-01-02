@@ -33,7 +33,7 @@ export const router = createBrowserRouter([
                 element: <AboutPage />,
             },
             {
-                path: "/course/:id",
+                path: "/courses/:id",
                 element: <CourseInfoPage />,
             },
         ],

@@ -22,11 +22,7 @@ export const PopularCourses = () => {
                     {courses
                         ?.filter((item) => item.isPopular)
                         .map((item) => (
-                            <Card
-                                cardType="courseCard"
-                                key={item.id}
-                                {...item}
-                            />
+                            <Card key={item.id} {...item} />
                         ))}
                 </div>
             )}

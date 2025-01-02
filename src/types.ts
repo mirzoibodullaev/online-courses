@@ -10,10 +10,15 @@ export interface Course {
     price: number;
     level: string;
     isPopular: boolean;
+    instructorImg: string;
+    instructorExperience: string;
+    instructorContacts: string;
+    reviews: number;
 }
 
 export interface Review {
     id: number;
     review: string;
     image: string;
+    name: string;
 }
