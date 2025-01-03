@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Lesson } from "../../../types";
+import { ProgressBar } from "../../ProgressBar";
 import cls from "./Lessons.module.scss";
 
 interface LessonsProps {
@@ -27,6 +28,7 @@ export const Lessons = ({ lessons }: LessonsProps) => {
                 >
                     <h3>{lesson.title}</h3>
                     <span>{lesson.duration} часов</span>
+                    <ProgressBar progress={lesson.progress} />
                 </div>
             ))}
         </div>

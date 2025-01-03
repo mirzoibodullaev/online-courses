@@ -20,14 +20,21 @@
                 {
                     "id": 1,
                     "title": "Урок 1: Введение в React",
-                    "duration": 13
+                    "duration": 13,
+                    "progress": 91
                 },
                 {
                     "id": 2,
                     "title": "Урок 2: Введение в Contex API",
-                    "duration": 12
+                    "duration": 12,
+                    "progress": 12
                 },
-                { "id": 3, "title": "Урок 3: Введение в Redux", "duration": 6 }
+                {
+                    "id": 3,
+                    "title": "Урок 3: Введение в Redux",
+                    "duration": 6,
+                    "progress": 3
+                }
             ]
         },
         {
@@ -50,14 +57,21 @@
                 {
                     "id": 4,
                     "title": "Урок 1: Введение в JavaScript",
-                    "duration": 15
+                    "duration": 15,
+                    "progress": 91
                 },
                 {
                     "id": 5,
                     "title": "Урок 2: Основы синтаксиса",
-                    "duration": 24
+                    "duration": 24,
+                    "progress": 41
                 },
-                { "id": 6, "title": "Урок 3: Работа с DOM", "duration": 11 }
+                {
+                    "id": 6,
+                    "title": "Урок 3: Работа с DOM",
+                    "duration": 11,
+                    "progress": 13
+                }
             ]
         },
         {
@@ -80,14 +94,21 @@
                 {
                     "id": 7,
                     "title": "Урок 1: Позиционирование блоков",
-                    "duration": 6
+                    "duration": 6,
+                    "progress": 55
                 },
                 {
                     "id": 8,
                     "title": "Урок 2: Псевдоклассы в CSS",
-                    "duration": 4
+                    "duration": 4,
+                    "progress": 43
                 },
-                { "id": 9, "title": "Урок 3: Анимация в CSS", "duration": 11 }
+                {
+                    "id": 9,
+                    "title": "Урок 3: Анимация в CSS",
+                    "duration": 11,
+                    "progress": 3
+                }
             ]
         },
         {
@@ -110,16 +131,33 @@
                 {
                     "id": 10,
                     "title": "Урок 1: Знакомство с Node.js",
-                    "duration": 2
+                    "duration": 2,
+                    "progress": 33
                 },
                 {
                     "id": 11,
                     "title": "Урок 2: Архитектура Node.js",
-                    "duration": 15
+                    "duration": 15,
+                    "progress": 12
                 },
-                { "id": 12, "title": "Урок 3: Цикл событий", "duration": 12 },
-                { "id": 13, "title": "Урок 4: Цикл событий", "duration": 3 },
-                { "id": 14, "title": "Урок 5: Стек вызовов", "duration": 3 }
+                {
+                    "id": 12,
+                    "title": "Урок 3: Цикл событий",
+                    "duration": 12,
+                    "progress": 12
+                },
+                {
+                    "id": 13,
+                    "title": "Урок 4: Цикл событий",
+                    "duration": 3,
+                    "progress": 6
+                },
+                {
+                    "id": 14,
+                    "title": "Урок 5: Стек вызовов",
+                    "duration": 3,
+                    "progress": 0
+                }
             ]
         },
         {
@@ -142,14 +180,21 @@
                 {
                     "id": 15,
                     "title": "Урок 1: Введение в HTML",
-                    "duration": 10
+                    "duration": 10,
+                    "progress": 88
                 },
                 {
                     "id": 16,
                     "title": "Урок 2: Структура документа",
-                    "duration": 15
+                    "duration": 15,
+                    "progress": 67
                 },
-                { "id": 17, "title": "Урок 3: Введение в CSS", "duration": 13 }
+                {
+                    "id": 17,
+                    "title": "Урок 3: Введение в CSS",
+                    "duration": 13,
+                    "progress": 16
+                }
             ]
         },
         {
@@ -172,15 +217,27 @@
                 {
                     "id": 18,
                     "title": "Урок 1: Введение в Python",
-                    "duration": 20
+                    "duration": 20,
+                    "progress": 76
                 },
                 {
                     "id": 19,
                     "title": "Урок 2: Основы синтаксиса",
-                    "duration": 18
+                    "duration": 18,
+                    "progress": 45
                 },
-                { "id": 20, "title": "Урок 3: Операторы", "duration": 15 },
-                { "id": 21, "title": "Урок 4: Функции", "duration": 22 }
+                {
+                    "id": 20,
+                    "title": "Урок 3: Операторы",
+                    "duration": 15,
+                    "progress": 14
+                },
+                {
+                    "id": 21,
+                    "title": "Урок 4: Функции",
+                    "duration": 22,
+                    "progress": 3
+                }
             ]
         },
         {
@@ -200,14 +257,30 @@
             "instructorContacts": "+123456789",
             "reviews": 90,
             "lessons": [
-                { "id": 22, "title": "Урок 1: Redux Toolkit", "duration": 10 },
+                {
+                    "id": 22,
+                    "title": "Урок 1: Redux Toolkit",
+                    "duration": 10,
+                    "progress": 98
+                },
                 {
                     "id": 23,
                     "title": "Урок 2: Основы TypeScript",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 35
                 },
-                { "id": 24, "title": "Урок 3: React-hook-form", "duration": 3 },
-                { "id": 25, "title": "Урок 4: Portal", "duration": 2 }
+                {
+                    "id": 24,
+                    "title": "Урок 3: React-hook-form",
+                    "duration": 3,
+                    "progress": 30
+                },
+                {
+                    "id": 25,
+                    "title": "Урок 4: Portal",
+                    "duration": 2,
+                    "progress": 12
+                }
             ]
         },
         {
@@ -227,21 +300,29 @@
             "instructorContacts": "+123456789",
             "reviews": 34,
             "lessons": [
-                { "id": 26, "title": "Урок 1: Основы дизайна", "duration": 10 },
+                {
+                    "id": 26,
+                    "title": "Урок 1: Основы дизайна",
+                    "duration": 10,
+                    "progress": 55
+                },
                 {
                     "id": 27,
                     "title": "Урок 2: Основы веб-дизайна",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 40
                 },
                 {
                     "id": 28,
                     "title": "Проектирование многостраничных сайтов",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 34
                 },
                 {
                     "id": 29,
                     "title": "E-commerce и углубление в UX-дизайн",
-                    "duration": 2
+                    "duration": 2,
+                    "progress": 22
                 }
             ]
         },
@@ -265,22 +346,26 @@
                 {
                     "id": 30,
                     "title": "Урок 1: Линейная алгебра",
-                    "duration": 10
+                    "duration": 10,
+                    "progress": 13
                 },
                 {
                     "id": 31,
                     "title": "Урок 2: Основы матанализа",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 10
                 },
                 {
                     "id": 32,
                     "title": "Основы теории вероятности и статистики",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 4
                 },
                 {
                     "id": 33,
                     "title": "Временные ряды и прочие математические методы",
-                    "duration": 2
+                    "duration": 2,
+                    "progress": 0
                 }
             ]
         },
@@ -304,22 +389,26 @@
                 {
                     "id": 34,
                     "title": "Урок 1: Интернет-маркетинг",
-                    "duration": 10
+                    "duration": 10,
+                    "progress": 100
                 },
                 {
                     "id": 35,
                     "title": "Урок 2: Посадочные страницы и социальные сети",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 88
                 },
                 {
                     "id": 36,
                     "title": "Платные каналы продвижения",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 41
                 },
                 {
                     "id": 37,
                     "title": "Контент, рассылки и поисковая оптимизация",
-                    "duration": 2
+                    "duration": 2,
+                    "progress": 13
                 }
             ]
         },
@@ -343,22 +432,26 @@
                 {
                     "id": 38,
                     "title": "Урок 1: Замыкания сделают код чище",
-                    "duration": 10
+                    "duration": 10,
+                    "progress": 93
                 },
                 {
                     "id": 39,
                     "title": "Урок 2: Деструктуризация сделает код проще",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 31
                 },
                 {
                     "id": 40,
                     "title": "Debouncing и Throttling — как оптимизировать производительность",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 13
                 },
                 {
                     "id": 41,
                     "title": "Каррирование повышает гибкость функций",
-                    "duration": 2
+                    "duration": 2,
+                    "progress": 1
                 }
             ]
         },
@@ -382,11 +475,27 @@
                 {
                     "id": 42,
                     "title": "Урок 1: Международное SEO",
-                    "duration": 10
+                    "duration": 10,
+                    "progress": 13
                 },
-                { "id": 43, "title": "Урок 2: Веб-аналитика", "duration": 3 },
-                { "id": 44, "title": "Медиапланирование", "duration": 3 },
-                { "id": 45, "title": "SEO-стратегия", "duration": 2 }
+                {
+                    "id": 43,
+                    "title": "Урок 2: Веб-аналитика",
+                    "duration": 3,
+                    "progress": 0
+                },
+                {
+                    "id": 44,
+                    "title": "Медиапланирование",
+                    "duration": 3,
+                    "progress": 0
+                },
+                {
+                    "id": 45,
+                    "title": "SEO-стратегия",
+                    "duration": 2,
+                    "progress": 0
+                }
             ]
         },
         {
@@ -409,22 +518,26 @@
                 {
                     "id": 46,
                     "title": "Единая система маркетинга и продаж",
-                    "duration": 10
+                    "duration": 10,
+                    "progress": 13
                 },
                 {
                     "id": 47,
                     "title": "Позиционирование и отстройка от конкурентов",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 3
                 },
                 {
                     "id": 48,
                     "title": "«Где продвигать?». Продвижение и каналы продаж",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 1
                 },
                 {
                     "id": 49,
                     "title": "Оценка эффективности маркетинга и продаж",
-                    "duration": 2
+                    "duration": 2,
+                    "progress": 1
                 }
             ]
         },
@@ -448,19 +561,27 @@
                 {
                     "id": 50,
                     "title": "Введение в интернет-маркетинг",
-                    "duration": 10
+                    "duration": 10,
+                    "progress": 91
                 },
                 {
                     "id": 51,
                     "title": "Основы маркетинговой аналитики",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 31
                 },
                 {
                     "id": 52,
                     "title": "Как создавать крутые креативы",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 66
                 },
-                { "id": 53, "title": "Контент-маркетинг", "duration": 2 }
+                {
+                    "id": 53,
+                    "title": "Контент-маркетинг",
+                    "duration": 2,
+                    "progress": 31
+                }
             ]
         },
         {
@@ -483,22 +604,26 @@
                 {
                     "id": 54,
                     "title": "Что такое архитектура приложения и почему она важна",
-                    "duration": 10
+                    "duration": 10,
+                    "progress": 91
                 },
                 {
                     "id": 55,
                     "title": "Как построить архитектуру приложения",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 86
                 },
                 {
                     "id": 56,
                     "title": "Выделяем код в библиотеку",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 44
                 },
                 {
                     "id": 57,
                     "title": "Добавляем логику для каждого формата",
-                    "duration": 2
+                    "duration": 2,
+                    "progress": 13
                 }
             ]
         },
@@ -522,22 +647,26 @@
                 {
                     "id": 58,
                     "title": "Программирование на языке Golang",
-                    "duration": 10
+                    "duration": 10,
+                    "progress": 31
                 },
                 {
                     "id": 59,
                     "title": "Взаимодействие с системой тестирования производительности",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 22
                 },
                 {
                     "id": 60,
                     "title": "Взаимодействие с горутинами — легковесными потоками исполнения",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 1
                 },
                 {
                     "id": 61,
                     "title": "Обработка панических ситуаций (panic)",
-                    "duration": 2
+                    "duration": 2,
+                    "progress": 0
                 }
             ]
         },
@@ -558,14 +687,30 @@
             "instructorContacts": "+123456789",
             "reviews": 122,
             "lessons": [
-                { "id": 62, "title": "Основы Java Core", "duration": 10 },
+                {
+                    "id": 62,
+                    "title": "Основы Java Core",
+                    "duration": 10,
+                    "progress": 33
+                },
                 {
                     "id": 63,
                     "title": "Настройка среды разработки",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 10
                 },
-                { "id": 64, "title": "Синтаксис языка", "duration": 3 },
-                { "id": 65, "title": "Классы и методы", "duration": 2 }
+                {
+                    "id": 64,
+                    "title": "Синтаксис языка",
+                    "duration": 3,
+                    "progress": 3
+                },
+                {
+                    "id": 65,
+                    "title": "Классы и методы",
+                    "duration": 2,
+                    "progress": 0
+                }
             ]
         },
         {
@@ -585,21 +730,29 @@
             "instructorContacts": "+123456789",
             "reviews": 122,
             "lessons": [
-                { "id": 66, "title": "Основы Figma", "duration": 10 },
+                {
+                    "id": 66,
+                    "title": "Основы Figma",
+                    "duration": 10,
+                    "progress": 77
+                },
                 {
                     "id": 67,
                     "title": "Основы Adobe Photoshop и Illustrator",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 32
                 },
                 {
                     "id": 68,
                     "title": "Основы дизайна мобильных приложений",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 12
                 },
                 {
                     "id": 69,
                     "title": "Исследования и архитектура интерфейса",
-                    "duration": 2
+                    "duration": 2,
+                    "progress": 1
                 }
             ]
         },
@@ -623,22 +776,26 @@
                 {
                     "id": 70,
                     "title": "Введение в Веб-разработку",
-                    "duration": 10
+                    "duration": 10,
+                    "progress": 63
                 },
                 {
                     "id": 71,
                     "title": "Структура HTML. Теги. Атрибуты.",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 48
                 },
                 {
                     "id": 72,
                     "title": "Правила языка разметки. Emmet.",
-                    "duration": 3
+                    "duration": 3,
+                    "progress": 31
                 },
                 {
                     "id": 73,
                     "title": "Блочная структура элементов. Свойство Display. Размеры.",
-                    "duration": 2
+                    "duration": 2,
+                    "progress": 0
                 }
             ]
         },
@@ -659,9 +816,24 @@
             "instructorContacts": "+123456789",
             "reviews": 122,
             "lessons": [
-                { "id": 74, "title": "@keyframes ", "duration": 10 },
-                { "id": 75, "title": "animation-name", "duration": 3 },
-                { "id": 76, "title": "animation-duration", "duration": 3 }
+                {
+                    "id": 74,
+                    "title": "@keyframes ",
+                    "duration": 10,
+                    "progress": 19
+                },
+                {
+                    "id": 75,
+                    "title": "animation-name",
+                    "duration": 3,
+                    "progress": 23
+                },
+                {
+                    "id": 76,
+                    "title": "animation-duration",
+                    "duration": 3,
+                    "progress": 1
+                }
             ]
         }
     ],
