@@ -4,6 +4,7 @@ import { Course } from "../../../types";
 import { CourseInfo } from "../../../components/CourseInfo";
 import { Reviews } from "../../../components/Reviews";
 import cls from "./CourseInfoPage.module.scss";
+import { Lessons } from "../../../components/Lessons";
 
 const CourseInfoPage = () => {
     const { id } = useParams<{ id: string }>();
@@ -21,6 +22,7 @@ const CourseInfoPage = () => {
     return (
         <section className={cls.courseInfo}>
             <CourseInfo {...course} />
+            <Lessons lessons={course.lessons} />
             <Reviews />
         </section>
     );

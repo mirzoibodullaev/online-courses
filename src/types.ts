@@ -1,3 +1,9 @@
+export interface Lesson {
+    id: number;
+    title: string;
+    duration: number;
+}
+
 export interface Course {
     id: number;
     title: string;
@@ -14,6 +20,7 @@ export interface Course {
     instructorExperience: string;
     instructorContacts: string;
     reviews: number;
+    lessons: Lesson[];
 }
 
 export interface Review {

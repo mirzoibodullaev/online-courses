@@ -1,7 +1,7 @@
 .courseInfo {
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    // flex-direction: column;
+    justify-content: space-between;
 }
 
 .coursePrice {
@@ -10,7 +10,8 @@
 .courseDetails,
 .instructorDetails {
     display: flex;
-    gap: 1.5rem;
+    gap: 15px;
+    margin-bottom: 25px;
 }
 
 .courseImg,

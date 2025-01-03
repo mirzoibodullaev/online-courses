@@ -53,8 +53,12 @@ export const CourseInfo = ({
                     className={cls.instructorImg}
                 />
                 <div className={cls.instructorMeta}>
-                    <h3 className={cls.instructorInfo}>Информация о преподавателя:</h3>
-                    <p className={cls.instructorExp}>Опыт: {instructorExperience}</p>
+                    <h3 className={cls.instructorInfo}>
+                        Информация о преподавателе:
+                    </h3>
+                    <p className={cls.instructorExp}>
+                        Опыт: {instructorExperience}
+                    </p>
                     <p>Контакты: {instructorContacts}</p>
                 </div>
             </div>
