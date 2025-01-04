@@ -30,3 +30,11 @@ export interface Review {
     image: string;
     name: string;
 }
+
+export interface Profile {
+    id?: number;
+    name: string;
+    password: string;
+    email: string;
+    avatar: string;
+}

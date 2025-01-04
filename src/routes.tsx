@@ -6,6 +6,8 @@ import { AboutPage } from "./pages/AboutPage";
 import { ContactsPage } from "./pages/ContactsPage";
 import { CourseInfoPage } from "./pages/CourseInfoPage";
 import { MainPage } from "./pages/MainPage";
+import { ProfilePage } from "./pages/ProfilePage";
+import { ProfileSettingsPage } from "./pages/ProfileSettingsPage";
 
 export const router = createBrowserRouter([
     {
@@ -31,6 +33,14 @@ export const router = createBrowserRouter([
             {
                 path: "/about",
                 element: <AboutPage />,
+            },
+            {
+                path: "/profile",
+                element: <ProfilePage />,
+            },
+            {
+                path: "/profile/settings",
+                element: <ProfileSettingsPage />,
             },
             {
                 path: "/courses/:id",

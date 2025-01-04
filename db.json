@@ -1,7 +1,16 @@
 {
+    "profile": [
+        {
+            "id": "1",
+            "name": "John",
+            "password": "112233",
+            "email": "example@gmail.com",
+            "avatar": "https://cdn.vectorstock.com/i/preview-1x/68/97/programmer-computer-expert-rgb-color-icon-vector-37206897.jpg"
+        }
+    ],
     "courses": [
         {
-            "id": 1,
+            "id": "1",
             "title": "React для начинающих",
             "image": "../src/assets/react-course.png",
             "description": "Курс по основам React для начинающих.",
@@ -38,7 +47,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": "2",
             "title": "JavaScript с нуля",
             "image": "../src/assets/js-course.png",
             "description": "Курс, который познакомит вас с JavaScript и его основами.",
@@ -75,7 +84,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": "3",
             "title": "Продвинутый CSS",
             "image": "../src/assets/css-course.png",
             "description": "Научитесь создавать сложные и красивые интерфейсы с CSS.",
@@ -112,7 +121,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": "4",
             "title": "Node.js для серверной разработки",
             "image": "../src/assets/node-course.png",
             "description": "Освойте серверную разработку с использованием Node.js.",
@@ -161,7 +170,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": "5",
             "title": "Основы HTML и CSS",
             "image": "../src/assets/html-css-course.png",
             "description": "Курс для начинающих по HTML и CSS.",
@@ -198,7 +207,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": "6",
             "title": "Основы Python",
             "image": "../src/assets/python-course.png",
             "description": "Изучите Python с нуля для веб-разработки.",
@@ -241,11 +250,11 @@
             ]
         },
         {
-            "id": 7,
+            "id": "7",
             "title": "Углубленный React",
             "image": "../src/assets/react-advanced.png",
             "description": "Изучите более сложные концепции React.",
-            "rating": 5.0,
+            "rating": 5,
             "price": 1500,
             "author": "Игорь Кузнецов",
             "level": "Продвинутый",
@@ -284,7 +293,7 @@
             ]
         },
         {
-            "id": 8,
+            "id": "8",
             "title": "UI/UX Дизайн для новичков",
             "image": "../src/assets/uiux-course.png",
             "description": "Курс по основам UI/UX дизайна.",
@@ -327,7 +336,7 @@
             ]
         },
         {
-            "id": 9,
+            "id": "9",
             "title": "Введение в машинное обучение",
             "image": "../src/assets/ml-course.png",
             "description": "Курс по основам машинного обучения.",
@@ -370,7 +379,7 @@
             ]
         },
         {
-            "id": 10,
+            "id": "10",
             "title": "Маркетинг для новичков",
             "image": "../src/assets/marketing-course.png",
             "description": "Введение в мир цифрового маркетинга.",
@@ -413,7 +422,7 @@
             ]
         },
         {
-            "id": 11,
+            "id": "11",
             "title": "Продвинутый JavaScript",
             "image": "../src/assets/advanced-js-course.png",
             "description": "Глубокое изучение JavaScript.",
@@ -456,7 +465,7 @@
             ]
         },
         {
-            "id": 12,
+            "id": "12",
             "title": "SEO-оптимизация для сайтов",
             "image": "../src/assets/seo-course.png",
             "description": "Основы SEO для начинающих.",
@@ -499,7 +508,7 @@
             ]
         },
         {
-            "id": 13,
+            "id": "13",
             "title": "Сетевой маркетинг",
             "image": "../src/assets/network-marketing-course.png",
             "description": "Изучите сетевой маркетинг для бизнеса.",
@@ -542,7 +551,7 @@
             ]
         },
         {
-            "id": 14,
+            "id": "14",
             "title": "Основы Digital Marketing",
             "image": "../src/assets/digital-marketing-course.png",
             "description": "Курс по основам цифрового маркетинга.",
@@ -585,7 +594,7 @@
             ]
         },
         {
-            "id": 15,
+            "id": "15",
             "title": "Архитектура веб-приложений",
             "image": "../src/assets/web-architecture-course.png",
             "description": "Курс по проектированию веб-приложений.",
@@ -628,7 +637,7 @@
             ]
         },
         {
-            "id": 16,
+            "id": "16",
             "title": "Программирование на Go",
             "image": "../src/assets/go-course.png",
             "description": "Изучите язык Go для программирования.",
@@ -671,7 +680,7 @@
             ]
         },
         {
-            "id": 17,
+            "id": "17",
             "title": "Основы Java для начинающих",
             "image": "../src/assets/java-course.png",
             "description": "Курс по Java для новичков.",
@@ -714,7 +723,7 @@
             ]
         },
         {
-            "id": 18,
+            "id": "18",
             "title": "Дизайн мобильных приложений",
             "image": "../src/assets/mobile-design-course.png",
             "description": "Изучите создание дизайна для мобильных приложений.",
@@ -757,7 +766,7 @@
             ]
         },
         {
-            "id": 19,
+            "id": "19",
             "title": "Веб-разработка с нуля",
             "image": "../src/assets/web-dev-course.png",
             "description": "Полный курс по веб-разработке.",
@@ -800,7 +809,7 @@
             ]
         },
         {
-            "id": 20,
+            "id": "20",
             "title": "Анимации в CSS",
             "image": "../src/assets/css-animations-course.png",
             "description": "Изучите создание анимаций с помощью CSS.",
@@ -839,61 +848,61 @@
     ],
     "reviews": [
         {
-            "id": 1,
+            "id": "1",
             "name": "Анна Иванова",
             "image": "../src/assets/anna.jpg",
             "review": "Отличный курс! Много полезной информации, объясняется всё понятно."
         },
         {
-            "id": 2,
+            "id": "2",
             "name": "Дмитрий Петров",
             "image": "../src/assets/dmitriy.png",
             "review": "Очень понравился подход преподавателей. Всё структурировано и логично."
         },
         {
-            "id": 3,
+            "id": "3",
             "name": "Мария Смирнова",
             "image": "../src/assets/maria.jpg",
             "review": "Курс превзошел мои ожидания! Понравились практические задания."
         },
         {
-            "id": 4,
+            "id": "4",
             "name": "Иван Сидоров",
             "image": "../src/assets/ivan.jpg",
             "review": "Уроки интересные, но хотелось бы больше примеров из реальной жизни."
         },
         {
-            "id": 5,
+            "id": "5",
             "name": "Ольга Васильева",
             "image": "../src/assets/olga.jpg",
             "review": "Понравился курс, особенно часть про CSS. Теперь мои проекты выглядят лучше."
         },
         {
-            "id": 6,
+            "id": "6",
             "name": "Екатерина Николаева",
             "image": "../src/assets/katya.jpg",
             "review": "Замечательные преподаватели и отличный материал. Спасибо за курс!"
         },
         {
-            "id": 7,
+            "id": "7",
             "name": "Александр Кузнецов",
             "image": "../src/assets/alexandr.jpg",
             "review": "Курс хороший, но слишком быстрый темп. Для новичков может быть сложновато."
         },
         {
-            "id": 8,
+            "id": "8",
             "name": "Татьяна Белова",
             "image": "../src/assets/tatiana.jpg",
             "review": "Обожаю этот курс! Узнала много нового и интересного. Всем рекомендую!"
         },
         {
-            "id": 9,
+            "id": "9",
             "name": "Сергей Морозов",
             "image": "../src/assets/sergey.jpeg",
             "review": "Хорошо структурированная информация, но хотелось бы больше практики."
         },
         {
-            "id": 10,
+            "id": "10",
             "name": "Наталья Лебедева",
             "image": "../src/assets/natalya.jpg",
             "review": "Курс супер! Материал подан доступно, всё сразу понятно. Спасибо!"

@@ -1,0 +1,24 @@
+.profie {
+    display: flex;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.profileName {
+    margin-bottom: 20px;
+}
+
+.settingsLink {
+    font-size: 16px;
+    font-weight: 500;
+    color: #01e45c;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: #07bc4f;
+        text-decoration: underline;
+    }
+}

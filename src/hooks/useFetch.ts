@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import axios, { AxiosError } from "axios";
 
 interface UseFetchResult<T> {
     data: T | null;
@@ -15,18 +16,12 @@ export const useFetch = <T>(url: string): UseFetchResult<T> => {
         const fetchData = async () => {
             setIsLoading(true);
             try {
-                const response = await fetch(url);
-                if (!response.ok) {
-                    throw new Error(
-                        `Ошибка: ${response.status} ${response.statusText}`
-                    );
-                }
-                const result = await response.json();
-                setData(result);
+                const response = await axios.get<T>(url);
+                setData(response.data);
             } catch (err: unknown) {
                 const errorMessage =
-                    err instanceof Error
-                        ? err.message
+                    err instanceof AxiosError
+                        ? err.response?.data?.message || err.message
                         : "Произошла неизвестная ошибка";
                 setError(errorMessage);
             } finally {
