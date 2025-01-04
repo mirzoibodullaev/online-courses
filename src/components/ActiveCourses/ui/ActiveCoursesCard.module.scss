@@ -1,0 +1,36 @@
+.activeCourses {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.courseItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.courseImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.courseTitle {
+    color: #333;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.noCourses {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+}

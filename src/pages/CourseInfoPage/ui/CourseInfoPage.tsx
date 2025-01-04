@@ -17,12 +17,11 @@ const CourseInfoPage = () => {
 
     if (isLoading) return <div>Загрузка...</div>;
     if (error) return <div>Ошибка загрузки данных: {error}</div>;
-    if (!course) return <div>Курс не найден.</div>;
 
     return (
         <section className={cls.courseInfo}>
             <CourseInfo {...course} />
-            <Lessons lessons={course.lessons} />
+            <Lessons lessons={course?.lessons || []} />
             <Reviews />
         </section>
     );

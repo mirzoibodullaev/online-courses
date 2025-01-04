@@ -50,7 +50,7 @@ const CoursesPage = () => {
                 <p>Загрузка...</p>
             ) : (
                 <div className={cls.courses}>
-                    {filteredCourses.map((course) => (
+                    {filteredCourses?.map((course) => (
                         <Card showDetails key={course.id} {...course} />
                     ))}
                 </div>

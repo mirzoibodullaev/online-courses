@@ -1,3 +1,19 @@
+export interface ActiveCourses {
+    id: string;
+    title: string;
+    image: string;
+    progress: number;
+}
+
+export interface Profile {
+    id?: number;
+    name: string;
+    password: string;
+    email: string;
+    avatar: string;
+    activeCourses?: ActiveCourses[];
+}
+
 export interface Lesson {
     id: number;
     title: string;
@@ -29,12 +45,4 @@ export interface Review {
     review: string;
     image: string;
     name: string;
-}
-
-export interface Profile {
-    id?: number;
-    name: string;
-    password: string;
-    email: string;
-    avatar: string;
 }

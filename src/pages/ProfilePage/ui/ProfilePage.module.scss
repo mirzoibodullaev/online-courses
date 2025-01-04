@@ -1,24 +1,36 @@
-.profie {
+.profile {
     display: flex;
     padding: 20px;
     background-color: #f9f9f9;
-    color: #333;
+    justify-content: space-between;
+    border-radius: 6px;
 }
 .profileName {
     margin-bottom: 20px;
 }
+.activeCourses {
+    margin-bottom: 15px;
+}
+.courseTitle {
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
 
 .settingsLink {
-    font-size: 16px;
-    font-weight: 500;
-    color: #01e45c;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
     text-decoration: none;
-    border: 1px solid transparent;
     border-radius: 5px;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease;
+    background-color: #07bc4f;
 
     &:hover {
-        color: #07bc4f;
-        text-decoration: underline;
+        background-color: #119847;
     }
 }

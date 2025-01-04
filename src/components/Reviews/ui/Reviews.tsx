@@ -14,9 +14,10 @@ export const Reviews = () => {
         error,
         isLoading,
     } = useFetch<Review[]>(`http://localhost:5000/reviews`);
-    if (!reviews) return <h1>Отзывы не найдены</h1>;
+
     if (error) return <h1>{error}</h1>;
     if (isLoading) return <p>{isLoading}</p>;
+    
     return (
         <section className={cls.reviews}>
             <h2 className={cls.title}>Отзывы о курсах</h2>
@@ -32,7 +33,7 @@ export const Reviews = () => {
                     1024: { slidesPerView: 4 },
                 }}
             >
-                {reviews.map((review) => (
+                {reviews?.map((review) => (
                     <SwiperSlide className={cls.swiper_slide} key={review.id}>
                         <ReviewCard review={review} />
                     </SwiperSlide>

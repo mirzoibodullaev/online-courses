@@ -2,15 +2,15 @@ import { Button } from "../../Button";
 import cls from "./CourseInfo.module.scss";
 
 interface CourseInfoProps {
-    title: string;
-    image: string;
-    description: string;
-    rating: number;
-    reviews: number;
-    price: number;
-    instructorImg: string;
-    instructorExperience: string;
-    instructorContacts: string;
+    title?: string;
+    image?: string;
+    description?: string;
+    rating?: number;
+    reviews?: number;
+    price?: number;
+    instructorImg?: string;
+    instructorExperience?: string;
+    instructorContacts?: string;
 }
 
 export const CourseInfo = ({
