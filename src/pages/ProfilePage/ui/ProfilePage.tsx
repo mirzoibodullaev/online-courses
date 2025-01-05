@@ -57,8 +57,10 @@ const ProfilePage = () => {
                 <div>
                     <h3 className={cls.courseTitle}>Активные курсы</h3>
                     {profile?.activeCourses?.map((course) => (
-                        <div className={cls.activeCourses} key={course.id}>
-                            <ActiveCoursesCard courses={course} />
+                        <div key={course.id} className={cls.activeCoursesLink}>
+                            <Link to={`lesson/${course.id}`} key={course.id}>
+                                <ActiveCoursesCard courses={course} />
+                            </Link>
                         </div>
                     ))}
                 </div>

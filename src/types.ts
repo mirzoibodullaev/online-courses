@@ -1,8 +1,23 @@
+export interface Materials {
+    id: string;
+    title: string;
+    url: string;
+}
+
+export interface Comments {
+    id: string;
+    author: string;
+    text: string;
+}
+
 export interface ActiveCourses {
     id: string;
     title: string;
     image: string;
     progress: number;
+    videoUrl: string;
+    materials: Materials[];
+    comments: Comments[];
 }
 
 type CompletedCourses = Omit<ActiveCourses, "progress">;
@@ -14,8 +29,10 @@ export interface Profile {
     email: string;
     avatar: string;
     activeCourses?: ActiveCourses[];
-    completedCourses: CompletedCourses[];
-    recommendedCourses: CompletedCourses[];
+    completedCourses?: CompletedCourses[];
+    recommendedCourses?: CompletedCourses[];
+    materials?: Materials[];
+    comments?: Comments[];
 }
 
 export interface Lesson {

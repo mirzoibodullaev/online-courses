@@ -11,13 +11,61 @@
                     "id": "1",
                     "title": "JavaScript с нуля",
                     "image": "../src/assets/js-course.png",
-                    "progress": 98
+                    "progress": 98,
+                    "videoUrl": "https://www.youtube.com/watch?v=CxgOKJh4zWE",
+                    "materials": [
+                        {
+                            "id": "1",
+                            "title": "Современный учебник JavaScript",
+                            "url": "https://learn.javascript.ru/"
+                        },
+                        {
+                            "id": "2",
+                            "title": "Дополнительная статья",
+                            "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript"
+                        }
+                    ],
+                    "comments": [
+                        {
+                            "id": "1",
+                            "author": "Alex",
+                            "text": "Отличный урок, спасибо!"
+                        },
+                        {
+                            "id": "2",
+                            "author": "Maria",
+                            "text": "Можно подробнее о замыканиях?"
+                        }
+                    ]
                 },
                 {
                     "id": "2",
                     "title": "React для начинающих",
                     "image": "../src/assets/react-course.png",
-                    "progress": 26
+                    "progress": 26,
+                    "videoUrl": "https://www.youtube.com/watch?v=GNrdg3PzpJQ&list=PL6DxKON1uLOHya4bDIynPTCwZHrezUlFs",
+                    "materials": [
+                        {
+                            "title": "Основы React",
+                            "url": "https://react.dev/"
+                        },
+                        {
+                            "title": "React Docs",
+                            "url": "https://react.dev/"
+                        }
+                    ],
+                    "comments": [
+                        {
+                            "id": "1",
+                            "author": "Dmitry",
+                            "text": "Очень полезный курс, рекомендую!"
+                        },
+                        {
+                            "id": "2",
+                            "author": "Olga",
+                            "text": "Можно добавить примеры с использованием Hooks?"
+                        }
+                    ]
                 }
             ],
             "completedCourses": [

@@ -8,6 +8,7 @@ import { CourseInfoPage } from "./pages/CourseInfoPage";
 import { MainPage } from "./pages/MainPage";
 import { ProfilePage } from "./pages/ProfilePage";
 import { ProfileSettingsPage } from "./pages/ProfileSettingsPage";
+import { LessonPage } from "./pages/LessonPage";
 
 export const router = createBrowserRouter([
     {
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
             {
                 path: "/profile/settings",
                 element: <ProfileSettingsPage />,
+            },
+            {
+                path: "/profile/lesson/:id",
+                element: <LessonPage />,
             },
             {
                 path: "/courses/:id",

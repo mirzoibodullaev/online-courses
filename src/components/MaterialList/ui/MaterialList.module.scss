@@ -1,0 +1,28 @@
+.materials {
+    margin-bottom: 20px;
+}
+
+.materials h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.materials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.materials li {
+    margin-bottom: 8px;
+}
+
+.materials a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+    &:hover {
+        text-decoration: underline;
+    }
+}
