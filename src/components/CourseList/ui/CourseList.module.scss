@@ -1,0 +1,51 @@
+.completedTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.profileCourses {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.completedContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    width: 240px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 600;
+        color: #444;
+        margin-bottom: 12px;
+    }
+}
+
+.completedImg {
+    width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}

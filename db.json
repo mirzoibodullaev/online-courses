@@ -19,6 +19,30 @@
                     "image": "../src/assets/react-course.png",
                     "progress": 26
                 }
+            ],
+            "completedCourses": [
+                {
+                    "id": "1",
+                    "title": "Продвинутый CSS",
+                    "image": "../src/assets/css-course.png"
+                },
+                {
+                    "id": "2",
+                    "title": "Основы HTML и CSS",
+                    "image": "../src/assets/html-css-course.png"
+                }
+            ],
+            "recommendedCourses": [
+                {
+                    "id": "1",
+                    "title": "Node.js для серверной разработки",
+                    "image": "../src/assets/node-course.png"
+                },
+                {
+                    "id": "7",
+                    "title": "Углубленный React",
+                    "image": "../src/assets/react-advanced.png"
+                }
             ]
         }
     ],

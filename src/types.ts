@@ -5,6 +5,8 @@ export interface ActiveCourses {
     progress: number;
 }
 
+type CompletedCourses = Omit<ActiveCourses, "progress">;
+
 export interface Profile {
     id?: number;
     name: string;
@@ -12,6 +14,8 @@ export interface Profile {
     email: string;
     avatar: string;
     activeCourses?: ActiveCourses[];
+    completedCourses: CompletedCourses[];
+    recommendedCourses: CompletedCourses[];
 }
 
 export interface Lesson {
