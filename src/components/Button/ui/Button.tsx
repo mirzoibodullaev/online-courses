@@ -1,7 +1,7 @@
 import cls from "./Button.module.scss";
 
 interface ButtonProps {
-    label: string;
+    label?: string;
     onClick?: () => void;
     variant: "primary" | "secondary" | "outline";
     disabled?: boolean;

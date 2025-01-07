@@ -9,10 +9,14 @@ interface Course {
 interface CourseListProps {
     title: string;
     courses: Course[] | [];
-    buttonLabel: string;
+    buttonLabel?: string;
 }
 
-export const CourseList = ({ title, courses, buttonLabel }: CourseListProps) => {
+export const CourseList = ({
+    title,
+    courses,
+    buttonLabel,
+}: CourseListProps) => {
     return (
         <div>
             <h3 className={cls.completedTitle}>{title}</h3>
@@ -25,11 +29,12 @@ export const CourseList = ({ title, courses, buttonLabel }: CourseListProps) => 
                             src={course.image}
                             alt={course.title}
                         />
-                        <Button label={buttonLabel} variant="secondary" />
+                        {buttonLabel && (
+                            <Button label={buttonLabel} variant="secondary" />
+                        )}
                     </div>
                 ))}
             </div>
         </div>
     );
 };
-

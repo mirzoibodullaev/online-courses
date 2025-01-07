@@ -22,7 +22,8 @@
     border-radius: 50%;
 }
 
-.settingsLink {
+.settingsLink,
+.questionsLink {
     padding: 10px 20px;
     font-size: 1rem;
     color: #fff;
@@ -34,6 +35,9 @@
     &:hover {
         background-color: #119847;
     }
+}
+.questionsLink {
+    margin-left: 15px;
 }
 
 .profileCourses {

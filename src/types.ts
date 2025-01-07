@@ -67,3 +67,12 @@ export interface Review {
     image: string;
     name: string;
 }
+
+export interface Questions {
+    id: number;
+    question: string;
+    type: "multiple-choice" | "text-input" | "matching";
+    options?: string[];
+    pairs?: { left: string; right: string }[];
+    correctAnswer: string | number | { left: string; right: string }[];
+}

@@ -9,6 +9,7 @@ import { MainPage } from "./pages/MainPage";
 import { ProfilePage } from "./pages/ProfilePage";
 import { ProfileSettingsPage } from "./pages/ProfileSettingsPage";
 import { LessonPage } from "./pages/LessonPage";
+import { QuestionsPage } from "./pages/QuestionsPage";
 
 export const router = createBrowserRouter([
     {
@@ -42,6 +43,10 @@ export const router = createBrowserRouter([
             {
                 path: "/profile/settings",
                 element: <ProfileSettingsPage />,
+            },
+            {
+                path: "/profile/questions",
+                element: <QuestionsPage />,
             },
             {
                 path: "/profile/lesson/:id",

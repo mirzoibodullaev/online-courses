@@ -12,7 +12,7 @@
                     "title": "JavaScript с нуля",
                     "image": "../src/assets/js-course.png",
                     "progress": 98,
-                    "videoUrl": "https://www.youtube.com/watch?v=CxgOKJh4zWE",
+                    "videoUrl": "../../public/videos/js.mp4",
                     "materials": [
                         {
                             "id": "1",
@@ -43,13 +43,15 @@
                     "title": "React для начинающих",
                     "image": "../src/assets/react-course.png",
                     "progress": 26,
-                    "videoUrl": "https://www.youtube.com/watch?v=GNrdg3PzpJQ&list=PL6DxKON1uLOHya4bDIynPTCwZHrezUlFs",
+                    "videoUrl": "../../public/videos/react.mp4",
                     "materials": [
                         {
+                            "id": "1",
                             "title": "Основы React",
                             "url": "https://react.dev/"
                         },
                         {
+                            "id": "2",
                             "title": "React Docs",
                             "url": "https://react.dev/"
                         }
@@ -92,6 +94,107 @@
                     "image": "../src/assets/react-advanced.png"
                 }
             ]
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "question": "Что такое JSX в React?",
+            "type": "multiple-choice",
+            "options": [
+                "Стилизация компонентов",
+                "Язык разметки, похожий на HTML",
+                "Тип данных в TypeScript"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 2,
+            "question": "Как объявить переменную в JavaScript?",
+            "type": "text-input",
+            "correctAnswer": "let"
+        },
+        {
+            "id": 3,
+            "question": "Сопоставьте элементы с их описанием",
+            "type": "matching",
+            "pairs": [
+                {
+                    "left": "TypeScript",
+                    "right": "Надстройка для JavaScript"
+                },
+                {
+                    "left": "CSS",
+                    "right": "Стилизация веб-страниц"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Какая функция используется для вывода в консоль в JavaScript?",
+            "type": "multiple-choice",
+            "options": ["console.log", "print", "echo"],
+            "correctAnswer": 0
+        },
+        {
+            "id": 5,
+            "question": "Какой метод массива используется для добавления элемента в конец?",
+            "type": "text-input",
+            "correctAnswer": "push"
+        },
+        {
+            "id": 6,
+            "question": "Сопоставьте HTTP-методы с их назначением",
+            "type": "matching",
+            "pairs": [
+                {
+                    "left": "GET",
+                    "right": "Получение данных"
+                },
+                {
+                    "left": "POST",
+                    "right": "Отправка данных"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Что означает аббревиатура DOM?",
+            "type": "multiple-choice",
+            "options": [
+                "Document Object Model",
+                "Data Object Module",
+                "Dynamic Object Manager"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 8,
+            "question": "Как в CSS сделать текст жирным?",
+            "type": "text-input",
+            "correctAnswer": "font-weight: bold"
+        },
+        {
+            "id": 9,
+            "question": "Сопоставьте типы данных JavaScript с примерами",
+            "type": "matching",
+            "pairs": [
+                {
+                    "left": "String",
+                    "right": "\"Hello, world!\""
+                },
+                {
+                    "left": "Number",
+                    "right": "42"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Какая библиотека используется для управления состоянием в React?",
+            "type": "multiple-choice",
+            "options": ["Redux", "Express", "Lodash"],
+            "correctAnswer": 0
         }
     ],
     "courses": [

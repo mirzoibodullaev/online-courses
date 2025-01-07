@@ -64,9 +64,15 @@ const ProfilePage = () => {
                         </div>
                     ))}
                 </div>
-                <div>
+                <div className={cls.profileButtons}>
                     <Link className={cls.settingsLink} to={"/profile/settings"}>
                         Настройки Профиля
+                    </Link>
+                    <Link
+                        className={cls.questionsLink}
+                        to={"/profile/questions"}
+                    >
+                        Тестирование
                     </Link>
                 </div>
             </div>
@@ -76,7 +82,6 @@ const ProfilePage = () => {
                 courses={profile?.completedCourses || []}
             />
             <CourseList
-                buttonLabel="Скачать сертификат"
                 title="Рекомендуемые курсы"
                 courses={profile?.recommendedCourses || []}
             />
