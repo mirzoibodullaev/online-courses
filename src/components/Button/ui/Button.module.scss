@@ -13,7 +13,7 @@
     border: none;
 
     &:hover {
-        background-color: #00c24e; 
+        background-color: #00c24e;
     }
 
     &:disabled {
@@ -52,5 +52,19 @@
         color: #a0a0a0;
         border-color: #d0d0d0;
         cursor: not-allowed;
+    }
+}
+.red {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background-color: #ff4d4d;
+    border: none;
+    
+    &:hover {
+        background-color: #e63030;
     }
 }

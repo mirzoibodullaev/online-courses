@@ -1,6 +1,6 @@
 import cls from "./Hero.module.scss";
 import HeroBanner from "../../../assets/banner.png";
-import { Button } from "../../Button";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
     return (
@@ -12,7 +12,8 @@ export const Hero = () => {
                     каталог-отзовик курсов. Выбирайте курсы по отзывам, цене,
                     продолжительности и другим критериям!
                 </p>
-                <Button label="Начать обучение" variant="primary"/>
+
+                <Link className={cls.heroLink} to={"/courses"}>Начать обучение</Link>
             </div>
 
             <img className={cls.hero_img} src={HeroBanner} alt="" />

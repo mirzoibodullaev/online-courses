@@ -1,1100 +1,1108 @@
 {
-    "profile": [
+  "profile": [
+    {
+      "id": "1",
+      "name": "admin",
+      "password": "123",
+      "email": "example@gmail.com",
+      "avatar": "https://cdn.vectorstock.com/i/preview-1x/68/97/programmer-computer-expert-rgb-color-icon-vector-37206897.jpg",
+      "activeCourses": [
         {
-            "id": "1",
-            "name": "John",
-            "password": "112233",
-            "email": "example@gmail.com",
-            "avatar": "https://cdn.vectorstock.com/i/preview-1x/68/97/programmer-computer-expert-rgb-color-icon-vector-37206897.jpg",
-            "activeCourses": [
-                {
-                    "id": "1",
-                    "title": "JavaScript с нуля",
-                    "image": "../src/assets/js-course.png",
-                    "progress": 98,
-                    "videoUrl": "../../public/videos/js.mp4",
-                    "materials": [
-                        {
-                            "id": "1",
-                            "title": "Современный учебник JavaScript",
-                            "url": "https://learn.javascript.ru/"
-                        },
-                        {
-                            "id": "2",
-                            "title": "Дополнительная статья",
-                            "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript"
-                        }
-                    ],
-                    "comments": [
-                        {
-                            "id": "1",
-                            "author": "Alex",
-                            "text": "Отличный урок, спасибо!"
-                        },
-                        {
-                            "id": "2",
-                            "author": "Maria",
-                            "text": "Можно подробнее о замыканиях?"
-                        }
-                    ]
-                },
-                {
-                    "id": "2",
-                    "title": "React для начинающих",
-                    "image": "../src/assets/react-course.png",
-                    "progress": 26,
-                    "videoUrl": "../../public/videos/react.mp4",
-                    "materials": [
-                        {
-                            "id": "1",
-                            "title": "Основы React",
-                            "url": "https://react.dev/"
-                        },
-                        {
-                            "id": "2",
-                            "title": "React Docs",
-                            "url": "https://react.dev/"
-                        }
-                    ],
-                    "comments": [
-                        {
-                            "id": "1",
-                            "author": "Dmitry",
-                            "text": "Очень полезный курс, рекомендую!"
-                        },
-                        {
-                            "id": "2",
-                            "author": "Olga",
-                            "text": "Можно добавить примеры с использованием Hooks?"
-                        }
-                    ]
-                }
-            ],
-            "completedCourses": [
-                {
-                    "id": "1",
-                    "title": "Продвинутый CSS",
-                    "image": "../src/assets/css-course.png"
-                },
-                {
-                    "id": "2",
-                    "title": "Основы HTML и CSS",
-                    "image": "../src/assets/html-css-course.png"
-                }
-            ],
-            "recommendedCourses": [
-                {
-                    "id": "1",
-                    "title": "Node.js для серверной разработки",
-                    "image": "../src/assets/node-course.png"
-                },
-                {
-                    "id": "7",
-                    "title": "Углубленный React",
-                    "image": "../src/assets/react-advanced.png"
-                }
-            ]
+          "id": "1",
+          "title": "JavaScript с нуля",
+          "image": "../src/assets/js-course.png",
+          "progress": 98,
+          "videoUrl": "/videos/js.mp4",
+          "materials": [
+            {
+              "id": "1",
+              "title": "Современный учебник JavaScript",
+              "url": "https://learn.javascript.ru/"
+            },
+            {
+              "id": "2",
+              "title": "Дополнительная статья",
+              "url": "https://developer.mozilla.org/ru/docs/Web/JavaScript"
+            }
+          ],
+          "comments": [
+            {
+              "id": "1",
+              "author": "Alex",
+              "text": "Отличный урок, спасибо!"
+            },
+            {
+              "id": "2",
+              "author": "Maria",
+              "text": "Можно подробнее о замыканиях?"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "React для начинающих",
+          "image": "../src/assets/react-course.png",
+          "progress": 26,
+          "videoUrl": "/videos/react.mp4",
+          "materials": [
+            {
+              "id": "1",
+              "title": "Основы React",
+              "url": "https://react.dev/"
+            },
+            {
+              "id": "2",
+              "title": "React Docs",
+              "url": "https://react.dev/"
+            }
+          ],
+          "comments": [
+            {
+              "id": "1",
+              "author": "Dmitry",
+              "text": "Очень полезный курс, рекомендую!"
+            },
+            {
+              "id": "2",
+              "author": "Olga",
+              "text": "Можно добавить примеры с использованием Hooks?"
+            }
+          ]
         }
-    ],
-    "questions": [
+      ],
+      "completedCourses": [
         {
-            "id": 1,
-            "question": "Что такое JSX в React?",
-            "type": "multiple-choice",
-            "options": [
-                "Стилизация компонентов",
-                "Язык разметки, похожий на HTML",
-                "Тип данных в TypeScript"
-            ],
-            "correctAnswer": 1
+          "id": "1",
+          "title": "Продвинутый CSS",
+          "image": "../src/assets/css-course.png"
         },
         {
-            "id": 2,
-            "question": "Как объявить переменную в JavaScript?",
-            "type": "text-input",
-            "correctAnswer": "let"
-        },
-        {
-            "id": 3,
-            "question": "Сопоставьте элементы с их описанием",
-            "type": "matching",
-            "pairs": [
-                {
-                    "left": "TypeScript",
-                    "right": "Надстройка для JavaScript"
-                },
-                {
-                    "left": "CSS",
-                    "right": "Стилизация веб-страниц"
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "question": "Какая функция используется для вывода в консоль в JavaScript?",
-            "type": "multiple-choice",
-            "options": ["console.log", "print", "echo"],
-            "correctAnswer": 0
-        },
-        {
-            "id": 5,
-            "question": "Какой метод массива используется для добавления элемента в конец?",
-            "type": "text-input",
-            "correctAnswer": "push"
-        },
-        {
-            "id": 6,
-            "question": "Сопоставьте HTTP-методы с их назначением",
-            "type": "matching",
-            "pairs": [
-                {
-                    "left": "GET",
-                    "right": "Получение данных"
-                },
-                {
-                    "left": "POST",
-                    "right": "Отправка данных"
-                }
-            ]
-        },
-        {
-            "id": 7,
-            "question": "Что означает аббревиатура DOM?",
-            "type": "multiple-choice",
-            "options": [
-                "Document Object Model",
-                "Data Object Module",
-                "Dynamic Object Manager"
-            ],
-            "correctAnswer": 0
-        },
-        {
-            "id": 8,
-            "question": "Как в CSS сделать текст жирным?",
-            "type": "text-input",
-            "correctAnswer": "font-weight: bold"
-        },
-        {
-            "id": 9,
-            "question": "Сопоставьте типы данных JavaScript с примерами",
-            "type": "matching",
-            "pairs": [
-                {
-                    "left": "String",
-                    "right": "\"Hello, world!\""
-                },
-                {
-                    "left": "Number",
-                    "right": "42"
-                }
-            ]
-        },
-        {
-            "id": 10,
-            "question": "Какая библиотека используется для управления состоянием в React?",
-            "type": "multiple-choice",
-            "options": ["Redux", "Express", "Lodash"],
-            "correctAnswer": 0
+          "id": "2",
+          "title": "Основы HTML и CSS",
+          "image": "../src/assets/html-css-course.png"
         }
-    ],
-    "courses": [
+      ],
+      "recommendedCourses": [
         {
-            "id": "1",
-            "title": "React для начинающих",
-            "image": "../src/assets/react-course.png",
-            "description": "Курс по основам React для начинающих.",
-            "rating": 4.8,
-            "price": 0,
-            "author": "Иван Иванов",
-            "level": "Начальный",
-            "category": "Программирование",
-            "type": "Бесплатный",
-            "isPopular": true,
-            "instructorImg": "../src/assets/ivan.jpg",
-            "instructorExperience": "3 года",
-            "instructorContacts": "+123456789",
-            "reviews": 122,
-            "lessons": [
-                {
-                    "id": 1,
-                    "title": "Урок 1: Введение в React",
-                    "duration": 13,
-                    "progress": 91
-                },
-                {
-                    "id": 2,
-                    "title": "Урок 2: Введение в Contex API",
-                    "duration": 12,
-                    "progress": 12
-                },
-                {
-                    "id": 3,
-                    "title": "Урок 3: Введение в Redux",
-                    "duration": 6,
-                    "progress": 3
-                }
-            ]
+          "id": "1",
+          "title": "Node.js для серверной разработки",
+          "image": "../src/assets/node-course.png"
         },
         {
-            "id": "2",
-            "title": "JavaScript с нуля",
-            "image": "../src/assets/js-course.png",
-            "description": "Курс, который познакомит вас с JavaScript и его основами.",
-            "rating": 4.7,
-            "price": 1000,
-            "author": "Мария Петрова",
-            "level": "Начальный",
-            "category": "Программирование",
-            "type": "Платный",
-            "isPopular": true,
-            "instructorImg": "../src/assets/maria.jpg",
-            "instructorExperience": "2 года",
-            "instructorContacts": "+123456789",
-            "reviews": 144,
-            "lessons": [
-                {
-                    "id": 4,
-                    "title": "Урок 1: Введение в JavaScript",
-                    "duration": 15,
-                    "progress": 91
-                },
-                {
-                    "id": 5,
-                    "title": "Урок 2: Основы синтаксиса",
-                    "duration": 24,
-                    "progress": 41
-                },
-                {
-                    "id": 6,
-                    "title": "Урок 3: Работа с DOM",
-                    "duration": 11,
-                    "progress": 13
-                }
-            ]
-        },
-        {
-            "id": "3",
-            "title": "Продвинутый CSS",
-            "image": "../src/assets/css-course.png",
-            "description": "Научитесь создавать сложные и красивые интерфейсы с CSS.",
-            "rating": 4.9,
-            "price": 1200,
-            "author": "Ольга Васильева",
-            "level": "Продвинутый",
-            "category": "Дизайн",
-            "type": "Платный",
-            "isPopular": true,
-            "instructorImg": "../src/assets/olga.jpg",
-            "instructorExperience": "6 лет",
-            "instructorContacts": "+123456789",
-            "reviews": 89,
-            "lessons": [
-                {
-                    "id": 7,
-                    "title": "Урок 1: Позиционирование блоков",
-                    "duration": 6,
-                    "progress": 55
-                },
-                {
-                    "id": 8,
-                    "title": "Урок 2: Псевдоклассы в CSS",
-                    "duration": 4,
-                    "progress": 43
-                },
-                {
-                    "id": 9,
-                    "title": "Урок 3: Анимация в CSS",
-                    "duration": 11,
-                    "progress": 3
-                }
-            ]
-        },
-        {
-            "id": "4",
-            "title": "Node.js для серверной разработки",
-            "image": "../src/assets/node-course.png",
-            "description": "Освойте серверную разработку с использованием Node.js.",
-            "rating": 4.8,
-            "price": 1500,
-            "author": "Дмитрий Смирнов",
-            "level": "Средний",
-            "category": "Программирование",
-            "type": "Платный",
-            "isPopular": true,
-            "instructorImg": "../src/assets/dmitriy.png",
-            "instructorExperience": "7 лет",
-            "instructorContacts": "+123456789",
-            "reviews": 232,
-            "lessons": [
-                {
-                    "id": 10,
-                    "title": "Урок 1: Знакомство с Node.js",
-                    "duration": 2,
-                    "progress": 33
-                },
-                {
-                    "id": 11,
-                    "title": "Урок 2: Архитектура Node.js",
-                    "duration": 15,
-                    "progress": 12
-                },
-                {
-                    "id": 12,
-                    "title": "Урок 3: Цикл событий",
-                    "duration": 12,
-                    "progress": 12
-                },
-                {
-                    "id": 13,
-                    "title": "Урок 4: Цикл событий",
-                    "duration": 3,
-                    "progress": 6
-                },
-                {
-                    "id": 14,
-                    "title": "Урок 5: Стек вызовов",
-                    "duration": 3,
-                    "progress": 0
-                }
-            ]
-        },
-        {
-            "id": "5",
-            "title": "Основы HTML и CSS",
-            "image": "../src/assets/html-css-course.png",
-            "description": "Курс для начинающих по HTML и CSS.",
-            "rating": 4.6,
-            "price": 0,
-            "author": "Алексей Тарасов",
-            "level": "Начальный",
-            "category": "Дизайн",
-            "type": "Бесплатный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/alexandr.jpg",
-            "instructorExperience": "4 года",
-            "instructorContacts": "+123456789",
-            "reviews": 22,
-            "lessons": [
-                {
-                    "id": 15,
-                    "title": "Урок 1: Введение в HTML",
-                    "duration": 10,
-                    "progress": 88
-                },
-                {
-                    "id": 16,
-                    "title": "Урок 2: Структура документа",
-                    "duration": 15,
-                    "progress": 67
-                },
-                {
-                    "id": 17,
-                    "title": "Урок 3: Введение в CSS",
-                    "duration": 13,
-                    "progress": 16
-                }
-            ]
-        },
-        {
-            "id": "6",
-            "title": "Основы Python",
-            "image": "../src/assets/python-course.png",
-            "description": "Изучите Python с нуля для веб-разработки.",
-            "rating": 4.7,
-            "price": 800,
-            "author": "Светлана Николаева",
-            "level": "Начальный",
-            "category": "Программирование",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/katya.jpg",
-            "instructorExperience": "1 год",
-            "instructorContacts": "+123456789",
-            "reviews": 44,
-            "lessons": [
-                {
-                    "id": 18,
-                    "title": "Урок 1: Введение в Python",
-                    "duration": 20,
-                    "progress": 76
-                },
-                {
-                    "id": 19,
-                    "title": "Урок 2: Основы синтаксиса",
-                    "duration": 18,
-                    "progress": 45
-                },
-                {
-                    "id": 20,
-                    "title": "Урок 3: Операторы",
-                    "duration": 15,
-                    "progress": 14
-                },
-                {
-                    "id": 21,
-                    "title": "Урок 4: Функции",
-                    "duration": 22,
-                    "progress": 3
-                }
-            ]
-        },
-        {
-            "id": "7",
-            "title": "Углубленный React",
-            "image": "../src/assets/react-advanced.png",
-            "description": "Изучите более сложные концепции React.",
-            "rating": 5,
-            "price": 1500,
-            "author": "Игорь Кузнецов",
-            "level": "Продвинутый",
-            "category": "Программирование",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/sergey.jpg",
-            "instructorExperience": "5 лет",
-            "instructorContacts": "+123456789",
-            "reviews": 90,
-            "lessons": [
-                {
-                    "id": 22,
-                    "title": "Урок 1: Redux Toolkit",
-                    "duration": 10,
-                    "progress": 98
-                },
-                {
-                    "id": 23,
-                    "title": "Урок 2: Основы TypeScript",
-                    "duration": 3,
-                    "progress": 35
-                },
-                {
-                    "id": 24,
-                    "title": "Урок 3: React-hook-form",
-                    "duration": 3,
-                    "progress": 30
-                },
-                {
-                    "id": 25,
-                    "title": "Урок 4: Portal",
-                    "duration": 2,
-                    "progress": 12
-                }
-            ]
-        },
-        {
-            "id": "8",
-            "title": "UI/UX Дизайн для новичков",
-            "image": "../src/assets/uiux-course.png",
-            "description": "Курс по основам UI/UX дизайна.",
-            "rating": 4.5,
-            "price": 1200,
-            "author": "Ксения Белова",
-            "level": "Начальный",
-            "category": "Дизайн",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/tatiana.jpg",
-            "instructorExperience": "3 года",
-            "instructorContacts": "+123456789",
-            "reviews": 34,
-            "lessons": [
-                {
-                    "id": 26,
-                    "title": "Урок 1: Основы дизайна",
-                    "duration": 10,
-                    "progress": 55
-                },
-                {
-                    "id": 27,
-                    "title": "Урок 2: Основы веб-дизайна",
-                    "duration": 3,
-                    "progress": 40
-                },
-                {
-                    "id": 28,
-                    "title": "Проектирование многостраничных сайтов",
-                    "duration": 3,
-                    "progress": 34
-                },
-                {
-                    "id": 29,
-                    "title": "E-commerce и углубление в UX-дизайн",
-                    "duration": 2,
-                    "progress": 22
-                }
-            ]
-        },
-        {
-            "id": "9",
-            "title": "Введение в машинное обучение",
-            "image": "../src/assets/ml-course.png",
-            "description": "Курс по основам машинного обучения.",
-            "rating": 4.7,
-            "price": 1800,
-            "author": "Максим Ильин",
-            "level": "Средний",
-            "category": "Программирование",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/sergey.jpg",
-            "instructorExperience": "8 лет",
-            "instructorContacts": "+123456789",
-            "reviews": 204,
-            "lessons": [
-                {
-                    "id": 30,
-                    "title": "Урок 1: Линейная алгебра",
-                    "duration": 10,
-                    "progress": 13
-                },
-                {
-                    "id": 31,
-                    "title": "Урок 2: Основы матанализа",
-                    "duration": 3,
-                    "progress": 10
-                },
-                {
-                    "id": 32,
-                    "title": "Основы теории вероятности и статистики",
-                    "duration": 3,
-                    "progress": 4
-                },
-                {
-                    "id": 33,
-                    "title": "Временные ряды и прочие математические методы",
-                    "duration": 2,
-                    "progress": 0
-                }
-            ]
-        },
-        {
-            "id": "10",
-            "title": "Маркетинг для новичков",
-            "image": "../src/assets/marketing-course.png",
-            "description": "Введение в мир цифрового маркетинга.",
-            "rating": 4.3,
-            "price": 1000,
-            "author": "Анна Петрова",
-            "level": "Начальный",
-            "category": "Маркетинг",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/ivan.jpg",
-            "instructorExperience": "9 лет",
-            "instructorContacts": "+123456789",
-            "reviews": 410,
-            "lessons": [
-                {
-                    "id": 34,
-                    "title": "Урок 1: Интернет-маркетинг",
-                    "duration": 10,
-                    "progress": 100
-                },
-                {
-                    "id": 35,
-                    "title": "Урок 2: Посадочные страницы и социальные сети",
-                    "duration": 3,
-                    "progress": 88
-                },
-                {
-                    "id": 36,
-                    "title": "Платные каналы продвижения",
-                    "duration": 3,
-                    "progress": 41
-                },
-                {
-                    "id": 37,
-                    "title": "Контент, рассылки и поисковая оптимизация",
-                    "duration": 2,
-                    "progress": 13
-                }
-            ]
-        },
-        {
-            "id": "11",
-            "title": "Продвинутый JavaScript",
-            "image": "../src/assets/advanced-js-course.png",
-            "description": "Глубокое изучение JavaScript.",
-            "rating": 4.9,
-            "price": 1300,
-            "author": "Елена Сергеева",
-            "level": "Продвинутый",
-            "category": "Программирование",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/ivan.jpg",
-            "instructorExperience": "3 года",
-            "instructorContacts": "+123456789",
-            "reviews": 122,
-            "lessons": [
-                {
-                    "id": 38,
-                    "title": "Урок 1: Замыкания сделают код чище",
-                    "duration": 10,
-                    "progress": 93
-                },
-                {
-                    "id": 39,
-                    "title": "Урок 2: Деструктуризация сделает код проще",
-                    "duration": 3,
-                    "progress": 31
-                },
-                {
-                    "id": 40,
-                    "title": "Debouncing и Throttling — как оптимизировать производительность",
-                    "duration": 3,
-                    "progress": 13
-                },
-                {
-                    "id": 41,
-                    "title": "Каррирование повышает гибкость функций",
-                    "duration": 2,
-                    "progress": 1
-                }
-            ]
-        },
-        {
-            "id": "12",
-            "title": "SEO-оптимизация для сайтов",
-            "image": "../src/assets/seo-course.png",
-            "description": "Основы SEO для начинающих.",
-            "rating": 4.6,
-            "price": 1100,
-            "author": "Владимир Степанов",
-            "level": "Средний",
-            "category": "Маркетинг",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/ivan.jpg",
-            "instructorExperience": "3 года",
-            "instructorContacts": "+123456789",
-            "reviews": 122,
-            "lessons": [
-                {
-                    "id": 42,
-                    "title": "Урок 1: Международное SEO",
-                    "duration": 10,
-                    "progress": 13
-                },
-                {
-                    "id": 43,
-                    "title": "Урок 2: Веб-аналитика",
-                    "duration": 3,
-                    "progress": 0
-                },
-                {
-                    "id": 44,
-                    "title": "Медиапланирование",
-                    "duration": 3,
-                    "progress": 0
-                },
-                {
-                    "id": 45,
-                    "title": "SEO-стратегия",
-                    "duration": 2,
-                    "progress": 0
-                }
-            ]
-        },
-        {
-            "id": "13",
-            "title": "Сетевой маркетинг",
-            "image": "../src/assets/network-marketing-course.png",
-            "description": "Изучите сетевой маркетинг для бизнеса.",
-            "rating": 4.2,
-            "price": 800,
-            "author": "Дарина Козлова",
-            "level": "Начальный",
-            "category": "Маркетинг",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/ivan.jpg",
-            "instructorExperience": "3 года",
-            "instructorContacts": "+123456789",
-            "reviews": 122,
-            "lessons": [
-                {
-                    "id": 46,
-                    "title": "Единая система маркетинга и продаж",
-                    "duration": 10,
-                    "progress": 13
-                },
-                {
-                    "id": 47,
-                    "title": "Позиционирование и отстройка от конкурентов",
-                    "duration": 3,
-                    "progress": 3
-                },
-                {
-                    "id": 48,
-                    "title": "«Где продвигать?». Продвижение и каналы продаж",
-                    "duration": 3,
-                    "progress": 1
-                },
-                {
-                    "id": 49,
-                    "title": "Оценка эффективности маркетинга и продаж",
-                    "duration": 2,
-                    "progress": 1
-                }
-            ]
-        },
-        {
-            "id": "14",
-            "title": "Основы Digital Marketing",
-            "image": "../src/assets/digital-marketing-course.png",
-            "description": "Курс по основам цифрового маркетинга.",
-            "rating": 4.5,
-            "price": 0,
-            "author": "Николай Власов",
-            "level": "Начальный",
-            "category": "Маркетинг",
-            "type": "Бесплатный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/ivan.jpg",
-            "instructorExperience": "3 года",
-            "instructorContacts": "+123456789",
-            "reviews": 122,
-            "lessons": [
-                {
-                    "id": 50,
-                    "title": "Введение в интернет-маркетинг",
-                    "duration": 10,
-                    "progress": 91
-                },
-                {
-                    "id": 51,
-                    "title": "Основы маркетинговой аналитики",
-                    "duration": 3,
-                    "progress": 31
-                },
-                {
-                    "id": 52,
-                    "title": "Как создавать крутые креативы",
-                    "duration": 3,
-                    "progress": 66
-                },
-                {
-                    "id": 53,
-                    "title": "Контент-маркетинг",
-                    "duration": 2,
-                    "progress": 31
-                }
-            ]
-        },
-        {
-            "id": "15",
-            "title": "Архитектура веб-приложений",
-            "image": "../src/assets/web-architecture-course.png",
-            "description": "Курс по проектированию веб-приложений.",
-            "rating": 4.7,
-            "price": 1400,
-            "author": "Марина Павлова",
-            "level": "Средний",
-            "category": "Программирование",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/ivan.jpg",
-            "instructorExperience": "3 года",
-            "instructorContacts": "+123456789",
-            "reviews": 122,
-            "lessons": [
-                {
-                    "id": 54,
-                    "title": "Что такое архитектура приложения и почему она важна",
-                    "duration": 10,
-                    "progress": 91
-                },
-                {
-                    "id": 55,
-                    "title": "Как построить архитектуру приложения",
-                    "duration": 3,
-                    "progress": 86
-                },
-                {
-                    "id": 56,
-                    "title": "Выделяем код в библиотеку",
-                    "duration": 3,
-                    "progress": 44
-                },
-                {
-                    "id": 57,
-                    "title": "Добавляем логику для каждого формата",
-                    "duration": 2,
-                    "progress": 13
-                }
-            ]
-        },
-        {
-            "id": "16",
-            "title": "Программирование на Go",
-            "image": "../src/assets/go-course.png",
-            "description": "Изучите язык Go для программирования.",
-            "rating": 4.6,
-            "price": 1500,
-            "author": "Валентина Орлова",
-            "level": "Средний",
-            "category": "Программирование",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/ivan.jpg",
-            "instructorExperience": "3 года",
-            "instructorContacts": "+123456789",
-            "reviews": 122,
-            "lessons": [
-                {
-                    "id": 58,
-                    "title": "Программирование на языке Golang",
-                    "duration": 10,
-                    "progress": 31
-                },
-                {
-                    "id": 59,
-                    "title": "Взаимодействие с системой тестирования производительности",
-                    "duration": 3,
-                    "progress": 22
-                },
-                {
-                    "id": 60,
-                    "title": "Взаимодействие с горутинами — легковесными потоками исполнения",
-                    "duration": 3,
-                    "progress": 1
-                },
-                {
-                    "id": 61,
-                    "title": "Обработка панических ситуаций (panic)",
-                    "duration": 2,
-                    "progress": 0
-                }
-            ]
-        },
-        {
-            "id": "17",
-            "title": "Основы Java для начинающих",
-            "image": "../src/assets/java-course.png",
-            "description": "Курс по Java для новичков.",
-            "rating": 4.4,
-            "price": 1100,
-            "author": "Алексей Мельников",
-            "level": "Начальный",
-            "category": "Программирование",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/ivan.jpg",
-            "instructorExperience": "3 года",
-            "instructorContacts": "+123456789",
-            "reviews": 122,
-            "lessons": [
-                {
-                    "id": 62,
-                    "title": "Основы Java Core",
-                    "duration": 10,
-                    "progress": 33
-                },
-                {
-                    "id": 63,
-                    "title": "Настройка среды разработки",
-                    "duration": 3,
-                    "progress": 10
-                },
-                {
-                    "id": 64,
-                    "title": "Синтаксис языка",
-                    "duration": 3,
-                    "progress": 3
-                },
-                {
-                    "id": 65,
-                    "title": "Классы и методы",
-                    "duration": 2,
-                    "progress": 0
-                }
-            ]
-        },
-        {
-            "id": "18",
-            "title": "Дизайн мобильных приложений",
-            "image": "../src/assets/mobile-design-course.png",
-            "description": "Изучите создание дизайна для мобильных приложений.",
-            "rating": 4.8,
-            "price": 1400,
-            "author": "Ирина Федорова",
-            "level": "Средний",
-            "category": "Дизайн",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/ivan.jpg",
-            "instructorExperience": "3 года",
-            "instructorContacts": "+123456789",
-            "reviews": 122,
-            "lessons": [
-                {
-                    "id": 66,
-                    "title": "Основы Figma",
-                    "duration": 10,
-                    "progress": 77
-                },
-                {
-                    "id": 67,
-                    "title": "Основы Adobe Photoshop и Illustrator",
-                    "duration": 3,
-                    "progress": 32
-                },
-                {
-                    "id": 68,
-                    "title": "Основы дизайна мобильных приложений",
-                    "duration": 3,
-                    "progress": 12
-                },
-                {
-                    "id": 69,
-                    "title": "Исследования и архитектура интерфейса",
-                    "duration": 2,
-                    "progress": 1
-                }
-            ]
-        },
-        {
-            "id": "19",
-            "title": "Веб-разработка с нуля",
-            "image": "../src/assets/web-dev-course.png",
-            "description": "Полный курс по веб-разработке.",
-            "rating": 4.9,
-            "price": 0,
-            "author": "Константин Романов",
-            "level": "Начальный",
-            "category": "Программирование",
-            "type": "Бесплатный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/ivan.jpg",
-            "instructorExperience": "3 года",
-            "instructorContacts": "+123456789",
-            "reviews": 122,
-            "lessons": [
-                {
-                    "id": 70,
-                    "title": "Введение в Веб-разработку",
-                    "duration": 10,
-                    "progress": 63
-                },
-                {
-                    "id": 71,
-                    "title": "Структура HTML. Теги. Атрибуты.",
-                    "duration": 3,
-                    "progress": 48
-                },
-                {
-                    "id": 72,
-                    "title": "Правила языка разметки. Emmet.",
-                    "duration": 3,
-                    "progress": 31
-                },
-                {
-                    "id": 73,
-                    "title": "Блочная структура элементов. Свойство Display. Размеры.",
-                    "duration": 2,
-                    "progress": 0
-                }
-            ]
-        },
-        {
-            "id": "20",
-            "title": "Анимации в CSS",
-            "image": "../src/assets/css-animations-course.png",
-            "description": "Изучите создание анимаций с помощью CSS.",
-            "rating": 4.5,
-            "price": 800,
-            "author": "Сергей Фомин",
-            "level": "Средний",
-            "category": "Дизайн",
-            "type": "Платный",
-            "isPopular": false,
-            "instructorImg": "../src/assets/ivan.jpg",
-            "instructorExperience": "3 года",
-            "instructorContacts": "+123456789",
-            "reviews": 122,
-            "lessons": [
-                {
-                    "id": 74,
-                    "title": "@keyframes ",
-                    "duration": 10,
-                    "progress": 19
-                },
-                {
-                    "id": 75,
-                    "title": "animation-name",
-                    "duration": 3,
-                    "progress": 23
-                },
-                {
-                    "id": 76,
-                    "title": "animation-duration",
-                    "duration": 3,
-                    "progress": 1
-                }
-            ]
+          "id": "7",
+          "title": "Углубленный React",
+          "image": "../src/assets/react-advanced.png"
         }
-    ],
-    "reviews": [
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Что такое JSX в React?",
+      "type": "multiple-choice",
+      "options": [
+        "Стилизация компонентов",
+        "Язык разметки, похожий на HTML",
+        "Тип данных в TypeScript"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "2",
+      "question": "Как объявить переменную в JavaScript?",
+      "type": "text-input",
+      "correctAnswer": "let"
+    },
+    {
+      "id": "3",
+      "question": "Сопоставьте элементы с их описанием",
+      "type": "matching",
+      "pairs": [
         {
-            "id": "1",
-            "name": "Анна Иванова",
-            "image": "../src/assets/anna.jpg",
-            "review": "Отличный курс! Много полезной информации, объясняется всё понятно."
+          "left": "TypeScript",
+          "right": "Надстройка для JavaScript"
         },
         {
-            "id": "2",
-            "name": "Дмитрий Петров",
-            "image": "../src/assets/dmitriy.png",
-            "review": "Очень понравился подход преподавателей. Всё структурировано и логично."
-        },
-        {
-            "id": "3",
-            "name": "Мария Смирнова",
-            "image": "../src/assets/maria.jpg",
-            "review": "Курс превзошел мои ожидания! Понравились практические задания."
-        },
-        {
-            "id": "4",
-            "name": "Иван Сидоров",
-            "image": "../src/assets/ivan.jpg",
-            "review": "Уроки интересные, но хотелось бы больше примеров из реальной жизни."
-        },
-        {
-            "id": "5",
-            "name": "Ольга Васильева",
-            "image": "../src/assets/olga.jpg",
-            "review": "Понравился курс, особенно часть про CSS. Теперь мои проекты выглядят лучше."
-        },
-        {
-            "id": "6",
-            "name": "Екатерина Николаева",
-            "image": "../src/assets/katya.jpg",
-            "review": "Замечательные преподаватели и отличный материал. Спасибо за курс!"
-        },
-        {
-            "id": "7",
-            "name": "Александр Кузнецов",
-            "image": "../src/assets/alexandr.jpg",
-            "review": "Курс хороший, но слишком быстрый темп. Для новичков может быть сложновато."
-        },
-        {
-            "id": "8",
-            "name": "Татьяна Белова",
-            "image": "../src/assets/tatiana.jpg",
-            "review": "Обожаю этот курс! Узнала много нового и интересного. Всем рекомендую!"
-        },
-        {
-            "id": "9",
-            "name": "Сергей Морозов",
-            "image": "../src/assets/sergey.jpeg",
-            "review": "Хорошо структурированная информация, но хотелось бы больше практики."
-        },
-        {
-            "id": "10",
-            "name": "Наталья Лебедева",
-            "image": "../src/assets/natalya.jpg",
-            "review": "Курс супер! Материал подан доступно, всё сразу понятно. Спасибо!"
+          "left": "CSS",
+          "right": "Стилизация веб-страниц"
         }
-    ]
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Какая функция используется для вывода в консоль в JavaScript?",
+      "type": "multiple-choice",
+      "options": [
+        "console.log",
+        "print",
+        "echo"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "5",
+      "question": "Какой метод массива используется для добавления элемента в конец?",
+      "type": "text-input",
+      "correctAnswer": "push"
+    },
+    {
+      "id": "6",
+      "question": "Сопоставьте HTTP-методы с их назначением",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "GET",
+          "right": "Получение данных"
+        },
+        {
+          "left": "POST",
+          "right": "Отправка данных"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Что означает аббревиатура DOM?",
+      "type": "multiple-choice",
+      "options": [
+        "Document Object Model",
+        "Data Object Module",
+        "Dynamic Object Manager"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "8",
+      "question": "Как в CSS сделать текст жирным?",
+      "type": "text-input",
+      "correctAnswer": "font-weight: bold"
+    },
+    {
+      "id": "9",
+      "question": "Сопоставьте типы данных JavaScript с примерами",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "String",
+          "right": "\"Hello, world!\""
+        },
+        {
+          "left": "Number",
+          "right": "42"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Какая библиотека используется для управления состоянием в React?",
+      "type": "multiple-choice",
+      "options": [
+        "Redux",
+        "Express",
+        "Lodash"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "title": "React для начинающих",
+      "image": "../src/assets/react-course.png",
+      "description": "Курс по основам React для начинающих.",
+      "rating": 4.8,
+      "price": 0,
+      "author": "Иван Иванов",
+      "level": "Начальный",
+      "category": "Программирование",
+      "type": "Бесплатный",
+      "isPopular": true,
+      "instructorImg": "../src/assets/ivan.jpg",
+      "instructorExperience": "3 года",
+      "instructorContacts": "+123456789",
+      "reviews": 122,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Урок 1: Введение в React",
+          "duration": 13,
+          "progress": 91
+        },
+        {
+          "id": 2,
+          "title": "Урок 2: Введение в Contex API",
+          "duration": 12,
+          "progress": 12
+        },
+        {
+          "id": 3,
+          "title": "Урок 3: Введение в Redux",
+          "duration": 6,
+          "progress": 3
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "JavaScript с нуля",
+      "image": "../src/assets/js-course.png",
+      "description": "Курс, который познакомит вас с JavaScript и его основами.",
+      "rating": 4.7,
+      "price": 1000,
+      "author": "Мария Петрова",
+      "level": "Начальный",
+      "category": "Программирование",
+      "type": "Платный",
+      "isPopular": true,
+      "instructorImg": "../src/assets/maria.jpg",
+      "instructorExperience": "2 года",
+      "instructorContacts": "+123456789",
+      "reviews": 144,
+      "lessons": [
+        {
+          "id": 4,
+          "title": "Урок 1: Введение в JavaScript",
+          "duration": 15,
+          "progress": 91
+        },
+        {
+          "id": 5,
+          "title": "Урок 2: Основы синтаксиса",
+          "duration": 24,
+          "progress": 41
+        },
+        {
+          "id": 6,
+          "title": "Урок 3: Работа с DOM",
+          "duration": 11,
+          "progress": 13
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Продвинутый CSS",
+      "image": "../src/assets/css-course.png",
+      "description": "Научитесь создавать сложные и красивые интерфейсы с CSS.",
+      "rating": 4.9,
+      "price": 1200,
+      "author": "Ольга Васильева",
+      "level": "Продвинутый",
+      "category": "Дизайн",
+      "type": "Платный",
+      "isPopular": true,
+      "instructorImg": "../src/assets/olga.jpg",
+      "instructorExperience": "6 лет",
+      "instructorContacts": "+123456789",
+      "reviews": 89,
+      "lessons": [
+        {
+          "id": 7,
+          "title": "Урок 1: Позиционирование блоков",
+          "duration": 6,
+          "progress": 55
+        },
+        {
+          "id": 8,
+          "title": "Урок 2: Псевдоклассы в CSS",
+          "duration": 4,
+          "progress": 43
+        },
+        {
+          "id": 9,
+          "title": "Урок 3: Анимация в CSS",
+          "duration": 11,
+          "progress": 3
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Node.js для серверной разработки",
+      "image": "../src/assets/node-course.png",
+      "description": "Освойте серверную разработку с использованием Node.js.",
+      "rating": 4.8,
+      "price": 1500,
+      "author": "Дмитрий Смирнов",
+      "level": "Средний",
+      "category": "Программирование",
+      "type": "Платный",
+      "isPopular": true,
+      "instructorImg": "../src/assets/dmitriy.png",
+      "instructorExperience": "7 лет",
+      "instructorContacts": "+123456789",
+      "reviews": 232,
+      "lessons": [
+        {
+          "id": 10,
+          "title": "Урок 1: Знакомство с Node.js",
+          "duration": 2,
+          "progress": 33
+        },
+        {
+          "id": 11,
+          "title": "Урок 2: Архитектура Node.js",
+          "duration": 15,
+          "progress": 12
+        },
+        {
+          "id": 12,
+          "title": "Урок 3: Цикл событий",
+          "duration": 12,
+          "progress": 12
+        },
+        {
+          "id": 13,
+          "title": "Урок 4: Цикл событий",
+          "duration": 3,
+          "progress": 6
+        },
+        {
+          "id": 14,
+          "title": "Урок 5: Стек вызовов",
+          "duration": 3,
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Основы HTML и CSS",
+      "image": "../src/assets/html-css-course.png",
+      "description": "Курс для начинающих по HTML и CSS.",
+      "rating": 4.6,
+      "price": 0,
+      "author": "Алексей Тарасов",
+      "level": "Начальный",
+      "category": "Дизайн",
+      "type": "Бесплатный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/alexandr.jpg",
+      "instructorExperience": "4 года",
+      "instructorContacts": "+123456789",
+      "reviews": 22,
+      "lessons": [
+        {
+          "id": 15,
+          "title": "Урок 1: Введение в HTML",
+          "duration": 10,
+          "progress": 88
+        },
+        {
+          "id": 16,
+          "title": "Урок 2: Структура документа",
+          "duration": 15,
+          "progress": 67
+        },
+        {
+          "id": 17,
+          "title": "Урок 3: Введение в CSS",
+          "duration": 13,
+          "progress": 16
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Основы Python",
+      "image": "../src/assets/python-course.png",
+      "description": "Изучите Python с нуля для веб-разработки.",
+      "rating": 4.7,
+      "price": 800,
+      "author": "Светлана Николаева",
+      "level": "Начальный",
+      "category": "Программирование",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/katya.jpg",
+      "instructorExperience": "1 год",
+      "instructorContacts": "+123456789",
+      "reviews": 44,
+      "lessons": [
+        {
+          "id": 18,
+          "title": "Урок 1: Введение в Python",
+          "duration": 20,
+          "progress": 76
+        },
+        {
+          "id": 19,
+          "title": "Урок 2: Основы синтаксиса",
+          "duration": 18,
+          "progress": 45
+        },
+        {
+          "id": 20,
+          "title": "Урок 3: Операторы",
+          "duration": 15,
+          "progress": 14
+        },
+        {
+          "id": 21,
+          "title": "Урок 4: Функции",
+          "duration": 22,
+          "progress": 3
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Углубленный React",
+      "image": "../src/assets/react-advanced.png",
+      "description": "Изучите более сложные концепции React.",
+      "rating": 5,
+      "price": 1500,
+      "author": "Игорь Кузнецов",
+      "level": "Продвинутый",
+      "category": "Программирование",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/sergey.jpg",
+      "instructorExperience": "5 лет",
+      "instructorContacts": "+123456789",
+      "reviews": 90,
+      "lessons": [
+        {
+          "id": 22,
+          "title": "Урок 1: Redux Toolkit",
+          "duration": 10,
+          "progress": 98
+        },
+        {
+          "id": 23,
+          "title": "Урок 2: Основы TypeScript",
+          "duration": 3,
+          "progress": 35
+        },
+        {
+          "id": 24,
+          "title": "Урок 3: React-hook-form",
+          "duration": 3,
+          "progress": 30
+        },
+        {
+          "id": 25,
+          "title": "Урок 4: Portal",
+          "duration": 2,
+          "progress": 12
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "UI/UX Дизайн для новичков",
+      "image": "../src/assets/uiux-course.png",
+      "description": "Курс по основам UI/UX дизайна.",
+      "rating": 4.5,
+      "price": 1200,
+      "author": "Ксения Белова",
+      "level": "Начальный",
+      "category": "Дизайн",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/tatiana.jpg",
+      "instructorExperience": "3 года",
+      "instructorContacts": "+123456789",
+      "reviews": 34,
+      "lessons": [
+        {
+          "id": 26,
+          "title": "Урок 1: Основы дизайна",
+          "duration": 10,
+          "progress": 55
+        },
+        {
+          "id": 27,
+          "title": "Урок 2: Основы веб-дизайна",
+          "duration": 3,
+          "progress": 40
+        },
+        {
+          "id": 28,
+          "title": "Проектирование многостраничных сайтов",
+          "duration": 3,
+          "progress": 34
+        },
+        {
+          "id": 29,
+          "title": "E-commerce и углубление в UX-дизайн",
+          "duration": 2,
+          "progress": 22
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Введение в машинное обучение",
+      "image": "../src/assets/ml-course.png",
+      "description": "Курс по основам машинного обучения.",
+      "rating": 4.7,
+      "price": 1800,
+      "author": "Максим Ильин",
+      "level": "Средний",
+      "category": "Программирование",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/sergey.jpg",
+      "instructorExperience": "8 лет",
+      "instructorContacts": "+123456789",
+      "reviews": 204,
+      "lessons": [
+        {
+          "id": 30,
+          "title": "Урок 1: Линейная алгебра",
+          "duration": 10,
+          "progress": 13
+        },
+        {
+          "id": 31,
+          "title": "Урок 2: Основы матанализа",
+          "duration": 3,
+          "progress": 10
+        },
+        {
+          "id": 32,
+          "title": "Основы теории вероятности и статистики",
+          "duration": 3,
+          "progress": 4
+        },
+        {
+          "id": 33,
+          "title": "Временные ряды и прочие математические методы",
+          "duration": 2,
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Маркетинг для новичков",
+      "image": "../src/assets/marketing-course.png",
+      "description": "Введение в мир цифрового маркетинга.",
+      "rating": 4.3,
+      "price": 1000,
+      "author": "Анна Петрова",
+      "level": "Начальный",
+      "category": "Маркетинг",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/ivan.jpg",
+      "instructorExperience": "9 лет",
+      "instructorContacts": "+123456789",
+      "reviews": 410,
+      "lessons": [
+        {
+          "id": 34,
+          "title": "Урок 1: Интернет-маркетинг",
+          "duration": 10,
+          "progress": 100
+        },
+        {
+          "id": 35,
+          "title": "Урок 2: Посадочные страницы и социальные сети",
+          "duration": 3,
+          "progress": 88
+        },
+        {
+          "id": 36,
+          "title": "Платные каналы продвижения",
+          "duration": 3,
+          "progress": 41
+        },
+        {
+          "id": 37,
+          "title": "Контент, рассылки и поисковая оптимизация",
+          "duration": 2,
+          "progress": 13
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Продвинутый JavaScript",
+      "image": "../src/assets/advanced-js-course.png",
+      "description": "Глубокое изучение JavaScript.",
+      "rating": 4.9,
+      "price": 1300,
+      "author": "Елена Сергеева",
+      "level": "Продвинутый",
+      "category": "Программирование",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/ivan.jpg",
+      "instructorExperience": "3 года",
+      "instructorContacts": "+123456789",
+      "reviews": 122,
+      "lessons": [
+        {
+          "id": 38,
+          "title": "Урок 1: Замыкания сделают код чище",
+          "duration": 10,
+          "progress": 93
+        },
+        {
+          "id": 39,
+          "title": "Урок 2: Деструктуризация сделает код проще",
+          "duration": 3,
+          "progress": 31
+        },
+        {
+          "id": 40,
+          "title": "Debouncing и Throttling — как оптимизировать производительность",
+          "duration": 3,
+          "progress": 13
+        },
+        {
+          "id": 41,
+          "title": "Каррирование повышает гибкость функций",
+          "duration": 2,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "SEO-оптимизация для сайтов",
+      "image": "../src/assets/seo-course.png",
+      "description": "Основы SEO для начинающих.",
+      "rating": 4.6,
+      "price": 1100,
+      "author": "Владимир Степанов",
+      "level": "Средний",
+      "category": "Маркетинг",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/ivan.jpg",
+      "instructorExperience": "3 года",
+      "instructorContacts": "+123456789",
+      "reviews": 122,
+      "lessons": [
+        {
+          "id": 42,
+          "title": "Урок 1: Международное SEO",
+          "duration": 10,
+          "progress": 13
+        },
+        {
+          "id": 43,
+          "title": "Урок 2: Веб-аналитика",
+          "duration": 3,
+          "progress": 0
+        },
+        {
+          "id": 44,
+          "title": "Медиапланирование",
+          "duration": 3,
+          "progress": 0
+        },
+        {
+          "id": 45,
+          "title": "SEO-стратегия",
+          "duration": 2,
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Сетевой маркетинг",
+      "image": "../src/assets/network-marketing-course.png",
+      "description": "Изучите сетевой маркетинг для бизнеса.",
+      "rating": 4.2,
+      "price": 800,
+      "author": "Дарина Козлова",
+      "level": "Начальный",
+      "category": "Маркетинг",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/ivan.jpg",
+      "instructorExperience": "3 года",
+      "instructorContacts": "+123456789",
+      "reviews": 122,
+      "lessons": [
+        {
+          "id": 46,
+          "title": "Единая система маркетинга и продаж",
+          "duration": 10,
+          "progress": 13
+        },
+        {
+          "id": 47,
+          "title": "Позиционирование и отстройка от конкурентов",
+          "duration": 3,
+          "progress": 3
+        },
+        {
+          "id": 48,
+          "title": "«Где продвигать?». Продвижение и каналы продаж",
+          "duration": 3,
+          "progress": 1
+        },
+        {
+          "id": 49,
+          "title": "Оценка эффективности маркетинга и продаж",
+          "duration": 2,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Основы Digital Marketing",
+      "image": "../src/assets/digital-marketing-course.png",
+      "description": "Курс по основам цифрового маркетинга.",
+      "rating": 4.5,
+      "price": 0,
+      "author": "Николай Власов",
+      "level": "Начальный",
+      "category": "Маркетинг",
+      "type": "Бесплатный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/ivan.jpg",
+      "instructorExperience": "3 года",
+      "instructorContacts": "+123456789",
+      "reviews": 122,
+      "lessons": [
+        {
+          "id": 50,
+          "title": "Введение в интернет-маркетинг",
+          "duration": 10,
+          "progress": 91
+        },
+        {
+          "id": 51,
+          "title": "Основы маркетинговой аналитики",
+          "duration": 3,
+          "progress": 31
+        },
+        {
+          "id": 52,
+          "title": "Как создавать крутые креативы",
+          "duration": 3,
+          "progress": 66
+        },
+        {
+          "id": 53,
+          "title": "Контент-маркетинг",
+          "duration": 2,
+          "progress": 31
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Архитектура веб-приложений",
+      "image": "../src/assets/web-architecture-course.png",
+      "description": "Курс по проектированию веб-приложений.",
+      "rating": 4.7,
+      "price": 1400,
+      "author": "Марина Павлова",
+      "level": "Средний",
+      "category": "Программирование",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/ivan.jpg",
+      "instructorExperience": "3 года",
+      "instructorContacts": "+123456789",
+      "reviews": 122,
+      "lessons": [
+        {
+          "id": 54,
+          "title": "Что такое архитектура приложения и почему она важна",
+          "duration": 10,
+          "progress": 91
+        },
+        {
+          "id": 55,
+          "title": "Как построить архитектуру приложения",
+          "duration": 3,
+          "progress": 86
+        },
+        {
+          "id": 56,
+          "title": "Выделяем код в библиотеку",
+          "duration": 3,
+          "progress": 44
+        },
+        {
+          "id": 57,
+          "title": "Добавляем логику для каждого формата",
+          "duration": 2,
+          "progress": 13
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Программирование на Go",
+      "image": "../src/assets/go-course.png",
+      "description": "Изучите язык Go для программирования.",
+      "rating": 4.6,
+      "price": 1500,
+      "author": "Валентина Орлова",
+      "level": "Средний",
+      "category": "Программирование",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/ivan.jpg",
+      "instructorExperience": "3 года",
+      "instructorContacts": "+123456789",
+      "reviews": 122,
+      "lessons": [
+        {
+          "id": 58,
+          "title": "Программирование на языке Golang",
+          "duration": 10,
+          "progress": 31
+        },
+        {
+          "id": 59,
+          "title": "Взаимодействие с системой тестирования производительности",
+          "duration": 3,
+          "progress": 22
+        },
+        {
+          "id": 60,
+          "title": "Взаимодействие с горутинами — легковесными потоками исполнения",
+          "duration": 3,
+          "progress": 1
+        },
+        {
+          "id": 61,
+          "title": "Обработка панических ситуаций (panic)",
+          "duration": 2,
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Основы Java для начинающих",
+      "image": "../src/assets/java-course.png",
+      "description": "Курс по Java для новичков.",
+      "rating": 4.4,
+      "price": 1100,
+      "author": "Алексей Мельников",
+      "level": "Начальный",
+      "category": "Программирование",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/ivan.jpg",
+      "instructorExperience": "3 года",
+      "instructorContacts": "+123456789",
+      "reviews": 122,
+      "lessons": [
+        {
+          "id": 62,
+          "title": "Основы Java Core",
+          "duration": 10,
+          "progress": 33
+        },
+        {
+          "id": 63,
+          "title": "Настройка среды разработки",
+          "duration": 3,
+          "progress": 10
+        },
+        {
+          "id": 64,
+          "title": "Синтаксис языка",
+          "duration": 3,
+          "progress": 3
+        },
+        {
+          "id": 65,
+          "title": "Классы и методы",
+          "duration": 2,
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Дизайн мобильных приложений",
+      "image": "../src/assets/mobile-design-course.png",
+      "description": "Изучите создание дизайна для мобильных приложений.",
+      "rating": 4.8,
+      "price": 1400,
+      "author": "Ирина Федорова",
+      "level": "Средний",
+      "category": "Дизайн",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/ivan.jpg",
+      "instructorExperience": "3 года",
+      "instructorContacts": "+123456789",
+      "reviews": 122,
+      "lessons": [
+        {
+          "id": 66,
+          "title": "Основы Figma",
+          "duration": 10,
+          "progress": 77
+        },
+        {
+          "id": 67,
+          "title": "Основы Adobe Photoshop и Illustrator",
+          "duration": 3,
+          "progress": 32
+        },
+        {
+          "id": 68,
+          "title": "Основы дизайна мобильных приложений",
+          "duration": 3,
+          "progress": 12
+        },
+        {
+          "id": 69,
+          "title": "Исследования и архитектура интерфейса",
+          "duration": 2,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Веб-разработка с нуля",
+      "image": "../src/assets/web-dev-course.png",
+      "description": "Полный курс по веб-разработке.",
+      "rating": 4.9,
+      "price": 0,
+      "author": "Константин Романов",
+      "level": "Начальный",
+      "category": "Программирование",
+      "type": "Бесплатный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/ivan.jpg",
+      "instructorExperience": "3 года",
+      "instructorContacts": "+123456789",
+      "reviews": 122,
+      "lessons": [
+        {
+          "id": 70,
+          "title": "Введение в Веб-разработку",
+          "duration": 10,
+          "progress": 63
+        },
+        {
+          "id": 71,
+          "title": "Структура HTML. Теги. Атрибуты.",
+          "duration": 3,
+          "progress": 48
+        },
+        {
+          "id": 72,
+          "title": "Правила языка разметки. Emmet.",
+          "duration": 3,
+          "progress": 31
+        },
+        {
+          "id": 73,
+          "title": "Блочная структура элементов. Свойство Display. Размеры.",
+          "duration": 2,
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Анимации в CSS",
+      "image": "../src/assets/css-animations-course.png",
+      "description": "Изучите создание анимаций с помощью CSS.",
+      "rating": 4.5,
+      "price": 800,
+      "author": "Сергей Фомин",
+      "level": "Средний",
+      "category": "Дизайн",
+      "type": "Платный",
+      "isPopular": false,
+      "instructorImg": "../src/assets/ivan.jpg",
+      "instructorExperience": "3 года",
+      "instructorContacts": "+123456789",
+      "reviews": 122,
+      "lessons": [
+        {
+          "id": 74,
+          "title": "@keyframes ",
+          "duration": 10,
+          "progress": 19
+        },
+        {
+          "id": 75,
+          "title": "animation-name",
+          "duration": 3,
+          "progress": 23
+        },
+        {
+          "id": 76,
+          "title": "animation-duration",
+          "duration": 3,
+          "progress": 1
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "name": "Анна Иванова",
+      "image": "../src/assets/anna.jpg",
+      "review": "Отличный курс! Много полезной информации, объясняется всё понятно."
+    },
+    {
+      "id": "2",
+      "name": "Дмитрий Петров",
+      "image": "../src/assets/dmitriy.png",
+      "review": "Очень понравился подход преподавателей. Всё структурировано и логично."
+    },
+    {
+      "id": "3",
+      "name": "Мария Смирнова",
+      "image": "../src/assets/maria.jpg",
+      "review": "Курс превзошел мои ожидания! Понравились практические задания."
+    },
+    {
+      "id": "4",
+      "name": "Иван Сидоров",
+      "image": "../src/assets/ivan.jpg",
+      "review": "Уроки интересные, но хотелось бы больше примеров из реальной жизни."
+    },
+    {
+      "id": "5",
+      "name": "Ольга Васильева",
+      "image": "../src/assets/olga.jpg",
+      "review": "Понравился курс, особенно часть про CSS. Теперь мои проекты выглядят лучше."
+    },
+    {
+      "id": "6",
+      "name": "Екатерина Николаева",
+      "image": "../src/assets/katya.jpg",
+      "review": "Замечательные преподаватели и отличный материал. Спасибо за курс!"
+    },
+    {
+      "id": "7",
+      "name": "Александр Кузнецов",
+      "image": "../src/assets/alexandr.jpg",
+      "review": "Курс хороший, но слишком быстрый темп. Для новичков может быть сложновато."
+    },
+    {
+      "id": "8",
+      "name": "Татьяна Белова",
+      "image": "../src/assets/tatiana.jpg",
+      "review": "Обожаю этот курс! Узнала много нового и интересного. Всем рекомендую!"
+    },
+    {
+      "id": "9",
+      "name": "Сергей Морозов",
+      "image": "../src/assets/sergey.jpeg",
+      "review": "Хорошо структурированная информация, но хотелось бы больше практики."
+    },
+    {
+      "id": "10",
+      "name": "Наталья Лебедева",
+      "image": "../src/assets/natalya.jpg",
+      "review": "Курс супер! Материал подан доступно, всё сразу понятно. Спасибо!"
+    }
+  ]
 }

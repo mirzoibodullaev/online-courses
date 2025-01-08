@@ -10,6 +10,7 @@ import { ProfilePage } from "./pages/ProfilePage";
 import { ProfileSettingsPage } from "./pages/ProfileSettingsPage";
 import { LessonPage } from "./pages/LessonPage";
 import { QuestionsPage } from "./pages/QuestionsPage";
+import { ProtectedRoute } from "./components/ProtectedRoute";
 
 export const router = createBrowserRouter([
     {
@@ -38,19 +39,35 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/profile",
-                element: <ProfilePage />,
+                element: (
+                    <ProtectedRoute>
+                        <ProfilePage />
+                    </ProtectedRoute>
+                ),
             },
             {
                 path: "/profile/settings",
-                element: <ProfileSettingsPage />,
+                element: (
+                    <ProtectedRoute>
+                        <ProfileSettingsPage />
+                    </ProtectedRoute>
+                ),
             },
             {
                 path: "/profile/questions",
-                element: <QuestionsPage />,
+                element: (
+                    <ProtectedRoute>
+                        <QuestionsPage />
+                    </ProtectedRoute>
+                ),
             },
             {
                 path: "/profile/lesson/:id",
-                element: <LessonPage />,
+                element: (
+                    <ProtectedRoute>
+                        <LessonPage />
+                    </ProtectedRoute>
+                ),
             },
             {
                 path: "/courses/:id",
@@ -60,6 +77,6 @@ export const router = createBrowserRouter([
     },
     {
         path: "*",
-        element: <h1>Not Found</h1>,
+        element: <h1>Page Not Found</h1>,
     },
 ]);

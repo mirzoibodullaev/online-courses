@@ -72,11 +72,7 @@ const LessonPage = () => {
     return (
         <section className={cls.section}>
             <h1 className={cls.lessonTitle}>{lesson.title}</h1>
-            <VideoPlayer
-                url={`${import.meta.env.VITE_PUBLIC_URL}/videos/${
-                    lesson.videoUrl
-                }`}
-            />
+            <VideoPlayer url={`${lesson.videoUrl}`} />
             <MaterialList materials={lesson.materials} />
             <CommentSection
                 comments={lesson.comments}

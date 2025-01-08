@@ -23,7 +23,7 @@ export interface ActiveCourses {
 type CompletedCourses = Omit<ActiveCourses, "progress">;
 
 export interface Profile {
-    id?: number;
+    id: string;
     name: string;
     password: string;
     email: string;

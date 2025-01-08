@@ -1,16 +1,26 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
 import axios from "axios";
+import { logout } from "../../../redux";
 import { ActiveCoursesCard } from "../../../components/ActiveCourses";
-import { Profile } from "../../../types";
 import { CourseList } from "../../../components/CourseList";
+import { Button } from "../../../components/Button";
+import { Profile } from "../../../types";
+import { AppDispatch } from "../../../redux/store/store";
 import cls from "./ProfilePage.module.scss";
 
 const ProfilePage = () => {
     const [profile, setProfile] = useState<Profile>();
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
+    const dispatch = useDispatch<AppDispatch>();
+    const navigate = useNavigate();
 
+    const handleLogout = () => {
+        dispatch(logout());
+        navigate("/login");
+    };
     useEffect(() => {
         setLoading(true);
         setError(null);
@@ -74,6 +84,11 @@ const ProfilePage = () => {
                     >
                         Тестирование
                     </Link>
+                    <Button
+                        variant="red"
+                        label="Выйти"
+                        onClick={handleLogout}
+                    />
                 </div>
             </div>
             <CourseList
