@@ -1,6 +1,10 @@
-
 .courses {
+    min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+}
+
+.noCourses {
+   min-height: 100vh;
 }

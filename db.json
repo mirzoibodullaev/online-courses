@@ -2,7 +2,7 @@
   "profile": [
     {
       "id": "1",
-      "name": "admin",
+      "name": "user",
       "password": "123",
       "email": "example@gmail.com",
       "avatar": "https://cdn.vectorstock.com/i/preview-1x/68/97/programmer-computer-expert-rgb-color-icon-vector-37206897.jpg",

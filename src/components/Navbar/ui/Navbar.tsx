@@ -6,7 +6,6 @@ import DefaultAvatar from "../../../assets/default-avatar.png";
 
 export const Navbar = () => {
     const { isLoggedIn, user } = useSelector((state: RootState) => state.auth);
-    console.log("user avatar", user?.avatar);
 
     return (
         <nav className={cls.navbar}>

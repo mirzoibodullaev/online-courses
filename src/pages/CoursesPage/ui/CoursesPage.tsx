@@ -48,11 +48,15 @@ const CoursesPage = () => {
                 </div>
             ) : isLoading ? (
                 <p>Загрузка...</p>
-            ) : (
+            ) : filteredCourses.length > 0 ? (
                 <div className={cls.courses}>
-                    {filteredCourses?.map((course) => (
+                    {filteredCourses.map((course) => (
                         <Card showDetails key={course.id} {...course} />
                     ))}
+                </div>
+            ) : (
+                <div className={cls.noCourses}>
+                    <h1>Курсы не найдены</h1>
                 </div>
             )}
         </section>
