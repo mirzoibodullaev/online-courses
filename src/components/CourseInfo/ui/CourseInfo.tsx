@@ -27,7 +27,7 @@ export const CourseInfo = ({
     return (
         <div className={cls.courseInfo}>
             <div className={cls.courseDetails}>
-                <img src={image} alt={title} className={cls.courseImg} />
+                <img  src={image} alt={title} className={cls.courseImg} />
                 <div className={cls.courseMeta}>
                     <h2 className={cls.courseTitle}>{title}</h2>
                     <p className={cls.courseDescr}>{description}</p>
@@ -48,6 +48,7 @@ export const CourseInfo = ({
 
             <div className={cls.instructorDetails}>
                 <img
+                    loading="lazy"
                     src={instructorImg}
                     alt="Instructor"
                     className={cls.instructorImg}

@@ -17,7 +17,7 @@ export const Reviews = () => {
 
     if (error) return <h1>{error}</h1>;
     if (isLoading) return <p>{isLoading}</p>;
-    
+
     return (
         <section className={cls.reviews}>
             <h2 className={cls.title}>Отзывы о курсах</h2>
@@ -28,9 +28,12 @@ export const Reviews = () => {
                 slidesPerView={4}
                 pagination={{ clickable: true }}
                 breakpoints={{
+                    425: { slidesPerView: 1 },
+                    576: { slidesPerView: 2 },
                     640: { slidesPerView: 1 },
                     768: { slidesPerView: 2 },
-                    1024: { slidesPerView: 4 },
+                    992: { slidesPerView: 3 },
+                    1024: { slidesPerView: 3 },
                 }}
             >
                 {reviews?.map((review) => (

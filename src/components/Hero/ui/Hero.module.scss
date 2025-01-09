@@ -16,6 +16,43 @@
         color: #2b2b2b;
         margin-bottom: 20px;
     }
+
+    @media (max-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 120px;
+        margin-bottom: 50px;
+
+        &_title {
+            font-size: 48px;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        &_paragraph {
+            font-size: 20px;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        &_content {
+            align-items: flex-start;
+            width: 50%;
+        }
+
+        &_img {
+            max-width: 500px;
+            margin-top: 0;
+        }
+    }
+
+    @media (max-width: 576px) {
+        display: block;
+
+        &_content {
+            margin-bottom: 25px;
+        }
+    }
 }
 .heroLink {
     padding: 10px 20px;
@@ -28,5 +65,10 @@
 
     &:hover {
         background-color: #119847;
+    }
+
+    @media (max-width: 768px) {
+        padding: 15px 30px;
+        font-size: 1.2rem;
     }
 }

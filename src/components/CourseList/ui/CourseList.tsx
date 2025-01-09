@@ -25,6 +25,7 @@ export const CourseList = ({
                     <div className={cls.completedContent} key={index}>
                         <p>{course.title}</p>
                         <img
+                            loading="lazy"
                             className={cls.completedImg}
                             src={course.image}
                             alt={course.title}

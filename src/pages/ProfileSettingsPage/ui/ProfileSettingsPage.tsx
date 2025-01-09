@@ -6,12 +6,14 @@ import cls from "./ProfileSettingsPage.module.scss";
 
 const ProfileSettingsPage = () => {
     const [profile, setProfile] = useState<Profile>({
+        id: "",
         name: "",
         email: "",
         password: "",
         avatar: "",
     });
     const [initialProfile, setInitialProfile] = useState<Profile>({
+        id: "",
         name: "",
         email: "",
         password: "",

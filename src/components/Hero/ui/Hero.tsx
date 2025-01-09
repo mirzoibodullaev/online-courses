@@ -13,10 +13,17 @@ export const Hero = () => {
                     продолжительности и другим критериям!
                 </p>
 
-                <Link className={cls.heroLink} to={"/courses"}>Начать обучение</Link>
+                <Link className={cls.heroLink} to={"/courses"}>
+                    Начать обучение
+                </Link>
             </div>
 
-            <img className={cls.hero_img} src={HeroBanner} alt="" />
+            <img
+                loading="lazy"
+                className={cls.hero_img}
+                src={HeroBanner}
+                alt=""
+            />
         </section>
     );
 };

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { RootState } from "../../../redux/store/store";
@@ -6,10 +7,25 @@ import DefaultAvatar from "../../../assets/default-avatar.png";
 
 export const Navbar = () => {
     const { isLoggedIn, user } = useSelector((state: RootState) => state.auth);
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => setMenuOpen(!menuOpen);
 
     return (
         <nav className={cls.navbar}>
-            <ul className={cls.navbar_items}>
+            <div
+                className={`${cls.navbar_burger} ${menuOpen ? cls.open : ""}`}
+                onClick={toggleMenu}
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul
+                className={`${cls.navbar_items} ${
+                    menuOpen ? cls.show : ""
+                }`}
+            >
                 <NavLink
                     className={({ isActive }) =>
                         isActive

@@ -16,6 +16,7 @@ export const ActiveCoursesCard = ({ courses }: ActiveCoursesProps) => {
             <div className={cls.courseItem}>
                 <p className={cls.courseTitle}>{courses.title}</p>
                 <img
+                    loading="lazy"
                     className={cls.courseImg}
                     src={courses.image}
                     alt={courses.title}

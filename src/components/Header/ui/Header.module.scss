@@ -4,9 +4,17 @@
     justify-content: space-between;
     padding: 20px 0;
     background-color: #ffffff;
+
+    @media (max-width: 768px) {
+        margin-bottom: 10px;
+    }
+    
+    @media (max-width: 576px) {
+        margin-bottom: 0;
+    }
+
     &_logo {
         height: 60px;
         width: 60px;
     }
 }
-

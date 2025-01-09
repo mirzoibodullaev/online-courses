@@ -29,7 +29,7 @@ export const Card = ({
     return (
         <div className={cls.card}>
             <h3 className={cls.card_title}>{title}</h3>
-            <img className={cls.card_img} src={image} alt={title} />
+            <img loading="lazy" className={cls.card_img} src={image} alt={title} />
             <p className={cls.card_descr}>{description}</p>
 
             {showDetails ? (

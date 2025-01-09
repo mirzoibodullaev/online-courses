@@ -56,6 +56,7 @@ const ProfilePage = () => {
                             Привет, {profile.name}!
                         </h1>
                         <img
+                            loading="lazy"
                             className={cls.avatar}
                             src={profile.avatar}
                             alt="Avatar"
